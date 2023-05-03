@@ -1,1 +1,1 @@
-# Locare-spatial-framework
+# LocareJSON
