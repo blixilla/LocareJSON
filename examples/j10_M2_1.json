@@ -1,0 +1,29 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01"
+  },
+  "LocareObject": {
+    "geometry": {
+      "type": "Segment",
+      "coordinates": [
+          [
+            217.5,
+            751.2,
+            374.6
+          ],
+          [
+            218.9,
+            750.9,
+            389.7
+          ]
+        ]
+    }
+  },
+  "properties": {
+    "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB"
+    "name": "j10_M2_1",
+    "description": "position of implanted bipolar electrode in right secondary motor cortex"
+  }
+}
