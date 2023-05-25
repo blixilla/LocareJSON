@@ -1,0 +1,23 @@
+{
+   "type":"LocareJSON",
+   "version":"0.1",
+   "metadata":{
+      "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01"
+   },
+   "LocareObject":{
+            "geometry":{
+             	"type":"Sphere",
+             	"coordinates":[
+                  222.74,
+                  754.93,
+                  301.37
+               ],
+               "radius":"139.04 µm"
+            }
+            },
+            "properties":{
+               "linkedDataset":"https://doi.org/10.25493/2MX9-3XF",
+               "name":"F9-BDA",
+               "description":"representation of injection site core"
+            }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01"
+  },
+  "LocareObject": {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            435,
+            610,
+            437
+          ],
+          [
+            50,
+            623,
+            434
+          ],
+          [
+            438,
+            630,
+            145
+          ],
+          [
+            53,
+            643,
+            141
+          ]
+        ]
+      ]
+    }
+  },
+  "properties": {
+    "linkedDataset": "https://doi.org/10.25493/T686-7BX",
+    "name": "H108c_Nissl_coronal_s175",
+    "description": "position of brain section image"
+  }
+}

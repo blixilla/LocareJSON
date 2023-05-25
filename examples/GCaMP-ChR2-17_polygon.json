@@ -1,0 +1,41 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
+  },
+  "LocareObject": {
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            230,
+            322.5,
+            294
+          ],
+          [
+            54.8,
+            322.5,
+            277.2
+          ],
+          [
+            230,
+            146.5,
+            294
+          ],
+          [
+            54.8,
+            146.5,
+            277.2
+          ]
+        ]
+      ]
+    }
+  },
+  "properties": {
+    "linkedDataset": "https://doi.org/10.25493/Z9J0-ZZQ",
+    "name": "GCaMP-ChR2-17",
+    "description": "position of camera field-of-view"
+  }
+}
