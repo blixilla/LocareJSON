@@ -8,7 +8,7 @@
     },
     "version": {
       "type": "string",
-      "pattern": "^\\d\\.\\d(?:\\.\\d+)*$"
+      "pattern": ^\\d\\.\\d(?:\\.\\d+)*$"
     },
     "metadata": {
       "type": "object",
@@ -28,24 +28,27 @@
           "properties": {
             "type": {
               "type": "string",
-              "enum": ["Point"]
+              "enum": ["Cylinder"]
             },
             "coordinates": {
               "type": "array",
               "items": {
                 "type": "array",
                 "items": {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  },
-                  "minItems": 3,
-                  "maxItems": 3
-                }
-              }
+                  "type": "number"
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "radius": {
+              "type": "string",
+              "pattern": "^\\d+(\\.\\d+)?\\s?µm$"
             }
           },
-          "required": ["type", "coordinates"]
+          "required": ["type", "coordinates", "radius"]
         }
       },
       "required": ["geometry"]
@@ -67,5 +70,5 @@
       "required": ["linkedDataset", "name", "description"]
     }
   },
-  "required": ["type", "version", "metadata", "LocareObjects", "properties"]
+  "required": ["type", "version", "metadata", "LocareObject", "properties"]
 }
