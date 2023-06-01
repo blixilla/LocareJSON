@@ -16,11 +16,11 @@
                  "value": 258.31,
                  "unit": "µm"
             }
-            },
-            "properties":{
-               "linkedDataset":"https://doi.org/10.25493/2MX9-3XF",
-               "name":"F9-BDA",
-               "description":"representation of injection site shell"
-            }
          }
+      },
+      "properties":{
+         "linkedDataset":"https://doi.org/10.25493/2MX9-3XF",
+         "name":"F9-BDA",
+         "description":"representation of injection site shell"
+      }
 }
