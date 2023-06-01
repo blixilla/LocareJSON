@@ -8,7 +8,7 @@
     },
     "version": {
       "type": "string",
-      "pattern": ^\\d\\.\\d(?:\\.\\d+)*$"
+      "pattern": "^\\d\\.\\d(?:\\.\\d+)*$"
     },
     "metadata": {
       "type": "object",
@@ -44,13 +44,16 @@
               "maxItems": 2
             },
             "radius": {
-              "value": {
-                "type": "number",
-                "minimum": 0
-              },
-              "unit": {
-                "type": "string",
-                "enum": ["µm", "mm", "cm"]
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": ["µm", "mm", "cm"]
+                }
               },
               "required": ["value", "unit"]
             }
