@@ -5,6 +5,8 @@ on:
     paths:
       - 'examples/*.json'
       - 'schemas/*.json'
+    branches:
+      - main
   pull_request:
     paths:
       - 'examples/*.json'
