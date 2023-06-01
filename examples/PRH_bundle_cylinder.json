@@ -19,7 +19,10 @@
             290.2
           ]
         ],
-        "radius": "1800 µm",
+        "radius": {
+          "value": 1800,
+          "unit": "µm"
+        }
     }
   },
   "properties": {

@@ -39,8 +39,15 @@
                     "maxItems": 3
                   },
                   "radius": {
-                    "type": "string",
-                    "pattern": "^\\d+(\\.\\d+)?\\s?µm$"
+                    "value": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "unit": {
+                      "type": "string",
+                      "enum": ["µm", "mm", "cm"]
+                    },
+                    "required": ["value", "unit"]
                   }
                 },
                 "required": ["type", "coordinates", "radius"]

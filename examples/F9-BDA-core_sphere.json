@@ -12,7 +12,9 @@
                   754.93,
                   301.37
                ],
-               "radius":"139.04 µm"
+               "radius": {
+                 "value": 139.04,
+                 "unit": "µm"
             }
             },
             "properties":{
