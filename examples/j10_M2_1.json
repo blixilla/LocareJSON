@@ -6,7 +6,7 @@
   },
   "LocareObject": {
     "geometry": {
-      "type": "Segment",
+      "type": "LineString",
       "coordinates": [
           [
             217.5,
