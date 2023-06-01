@@ -1,0 +1,54 @@
+name: JSON Schema Validation
+
+on:
+  push:
+    paths:
+      - 'examples/*.json'
+      - 'schemas/*.json'
+    branches:
+      - main
+  pull_request:
+    paths:
+      - 'examples/*.json'
+      - 'schemas/*.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Cache npm dependencies
+        uses: actions/cache@v2
+        with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+                ${{ runner.os }}-node-
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats --silent
+
+      - name: Validate JSON files
+        run: |
+            shopt -s nullglob
+            for json_file in examples/*_*.json
+            do
+                base_name=$(basename "$json_file" .json)
+                schema_base_name=$(echo "$base_name" | sed -n 's/.*_\([^_]*\).*/\1/p')
+                schema_file="schemas/${schema_base_name}.schema.json"
+                echo "Validating $json_file with $schema_file"
+                ajv validate -c ajv-formats -s $schema_file -d $json_file
+                if [ $? -ne 0 ]; then
+                    echo "$json_file is not valid according to $schema_file"
+                    exit 1
+                fi
+            done
+        

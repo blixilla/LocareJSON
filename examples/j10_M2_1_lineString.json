@@ -22,7 +22,7 @@
     }
   },
   "properties": {
-    "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB"
+    "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
     "name": "j10_M2_1",
     "description": "position of implanted bipolar electrode in right secondary motor cortex"
   }

@@ -26,7 +26,7 @@
     }
   },
   "properties": {
-    "linkedDataset": "https://doi.org/10.25493/1PEP-K9F"
+    "linkedDataset": "https://doi.org/10.25493/1PEP-K9F",
     "name": "PRH bundle",
     "description": "position of perirhinal tetrode bundle"
   }
