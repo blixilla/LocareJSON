@@ -6,8 +6,6 @@ Created on Mon Jun  5 09:39:54 2023
 """
 
 
-
-
 def calculate_corners(anchoring):
     upper_left_x, upper_left_y, upper_left_z = anchoring[0:3]
     vx1, vy1, vz1 = anchoring[3:6]
