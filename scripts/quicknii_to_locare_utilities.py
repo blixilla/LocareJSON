@@ -43,7 +43,7 @@ def define_coordinate_space(target):
         commonCoordinateSpaceVersion = "Unknown"
     return commonCoordinateSpaceVersion
 
-def create_locare_dict_from_alignments(data, linked_dataset):
+def create_locare_dict_from_alignments(data, linked_dataset=""):
     target = data["target"]
     commonCoordinateSpaceVersion = define_coordinate_space(target)
     locare_dict = {
