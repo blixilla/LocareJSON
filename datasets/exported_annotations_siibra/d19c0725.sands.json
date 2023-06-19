@@ -1,0 +1,31 @@
+{
+  "@id": "d19c0725",
+  "@type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
+  "coordinateSpace": {},
+  "coordinates": [
+    {
+      "@id": "2b18da86",
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 3.100047,
+      "unit": {
+        "@id": "id.link/mm"
+      }
+    },
+    {
+      "@id": "6a825e9c",
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": -4.585964,
+      "unit": {
+        "@id": "id.link/mm"
+      }
+    },
+    {
+      "@id": "e9596719",
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 6.0555585,
+      "unit": {
+        "@id": "id.link/mm"
+      }
+    }
+  ]
+}

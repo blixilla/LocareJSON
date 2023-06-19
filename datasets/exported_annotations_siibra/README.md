@@ -1,0 +1,1 @@
+{id}.sands.json file contains the data of annotations. {id}.desc.json contains the metadata of annotations.
