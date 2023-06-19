@@ -42,22 +42,44 @@ def shortest_distance_to_plane(point, plane_equation):
 
 
 locare_path = r"/home/harryc/Github/DeMBA_scripts/LocareJSON/datasets/Quint_jsons_locare/H108_Timm_Nissl_coronal_locareJSON-newtest.json"
-sands_annotation_path = r"/home/harryc/Github/DeMBA_scripts/LocareJSON/datasets/exported_annotations_siibra/d19c0725.sands.json"
+sands_annotation_path = input("please input the path to the sands file for your point of interest: \n")
 
 with open(locare_path) as f:
     quint_data = json.load(f)
 
 alignments = quint_data["LocareCollection"]
+alignment_resolution = quint_data["metadata"]["scale"]
 
-O,U,V = alignments[0]['LocareObject']['geometry']['coordinates'][:3]
 
-O = np.array(O)
-U = np.array(U) - O
-V = np.array(V) - O
-
-plane = np.array([O,U,V]).flatten()
-plane_eq = find_plane_equation(plane)
 
 
 with open(sands_annotation_path) as f:
     sands_data = json.load(f)
+
+# check if units are mm
+if  np.all([i['unit']['@id']=='id.link/mm' for i in sands_data["coordinates"]]):
+    # convert to um
+    for coord in sands_data["coordinates"]:
+        coord['unit']['@id'] = 'id.link/um'
+        coord['value'] *= 1000
+
+
+
+
+
+coord_xyz = np.array([i['value'] for i in sands_data["coordinates"]])
+coord_xyz += np.array([268 * 39,623 * 39,248 * 39])
+distances = []
+for alignment in alignments:
+    O,U,V = alignment['LocareObject']['geometry']['coordinates'][:3]
+    O = np.array(O)
+    U = np.array(U) - O
+    V = np.array(V) - O
+    plane = np.array([O,U,V]).flatten()
+    cross, k = find_plane_equation(plane)
+    plane_eq = np.array([cross[0], cross[1], cross[2], k])
+    distances.append(shortest_distance_to_plane(coord_xyz, plane_eq))
+
+closest_alignment = alignments[np.argmin(distances)]
+print("\n----------------------------------------\nResults:\n")
+print(f"The closest section is {closest_alignment['LocareObject']['properties']['name']} and can be viewed at \n {quint_data['metadata']['viewerLink']}&section={closest_alignment['LocareObject']['properties']['name']}")
