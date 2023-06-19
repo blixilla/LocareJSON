@@ -1,0 +1,50 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+    "linkedDataset": "https://doi.org/10.25493/AWS5-MZG"
+  },
+  "LocareCollection": [
+  {  
+    "LocareObject": {
+        "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+            [
+                321.0,
+                221.4,
+                184.5
+            ]
+            ]
+        ]
+        },
+        "properties": {
+        "name": "LGN1-DORSALSOMA",
+        "description": "position of neuronal somata centroid"
+        }
+    }  
+  },
+  {  
+    "LocareObject": {
+        "geometry": {
+        "type": "Point",
+        "coordinates": [
+            [
+            [
+                321.8,
+                221.5,
+                172.2
+            ]
+            ]
+        ]
+        },
+        "properties": {
+        "name": "LP5-VENTRALSOMA",
+        "description": "position of neuronal somata centroid"
+        }
+    }  
+  }
+ ]
+}

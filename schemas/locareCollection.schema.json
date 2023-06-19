@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["LocareJSON"]
+    },
+    "version": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "commonCoordinateSpaceVersion": {
+          "type": "string",
+          "format": "uri"
+        },
+        "linkedDataset": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["commonCoordinateSpaceVersion", "linkedDataset"]
+    },
+    "LocareCollection": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["LocareObject"]
+          },
+          "geometry": {
+            "anyOf": [
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/cylinder.schema.json" },
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/lineString.schema.json" },
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/point.schema.json" },
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/polygon.schema.json" },
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/polyhedron.schema.json" },
+              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/sphere.schema.json" }
+            ]
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": ["name", "description"]
+          }
+        },
+        "required": ["type", "geometry", "properties"]
+      }
+    }
+  },
+  "required": ["type", "version", "metadata", "LocareCollection"]
+}

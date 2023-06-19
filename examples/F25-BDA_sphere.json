@@ -1,0 +1,50 @@
+{
+   "type":"LocareJSON",
+   "version":"0.1",
+   "metadata":{
+      "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+      "linkedDataset":"https://doi.org/10.25493/2MX9-3XF"
+   },
+   "LocareCollection": [
+   {
+      "LocareObject":{
+         "geometry":{
+            "type":"Sphere",
+            "coordinates":[
+               226.99,
+               752.76,
+               294.06
+            ],
+            "radius": {
+               "value": 121.28,
+               "unit": "µm"
+            }
+         },
+         "properties":{
+            "name":"F25-BDA",
+            "description":"representation of injection site core"
+         }
+      }
+   },
+   {
+      "LocareObject":{
+         "geometry":{
+            "type":"Sphere",
+             	"coordinates":[
+                226.99,
+                752.76,
+                294.06
+               ],
+               "radius": {
+                 "value": 487.79,
+                 "unit": "µm"
+            }
+         },
+         "properties":{
+            "name":"F25-BDA",
+            "description":"representation of injection site shell"
+         }
+      }
+   }
+ ]
+}   

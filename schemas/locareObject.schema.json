@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LocareJSON LocareObject",
+  "oneOf": [
+    {
+      "title": "LocareJSON Point",
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Point"
+          ]
+        },
+        "coordinates": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "title": "LocareJSON LineString",
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "LineString"
+          ]
+        },
+        "coordinates": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LocareJSON Polygon",
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Polygon"
+          ]
+        },
+        "coordinates": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "items": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LocareJSON Cylinder",
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates", "radius"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Cylinder"
+          ]
+        },
+        "coordinates": {
+           "type": "array",
+           "items": {
+             "type": "array",
+             "minItems": 2,
+             "items": {
+               "type": "number"
+           }
+         },
+         "radius": {
+           "value": {
+             "type": "number",
+             "minimum": 0
+           },
+           "unit": {
+             "type": "string",
+             "enum": ["µm", "mm", "cm"]
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LocareJSON Sphere",
+      "type": "object",
+      "required": [
+        "type",
+        "coordinates", "radius"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Sphere"
+          ]
+          },
+          "coordinates": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "radius": {
+            "value": {
+              "type": "number",
+              "minimum": 0
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["µm", "mm", "cm"]
+        }
+      }
+    },
+    {
+      "title": "LocareJSON Polyhedron",
+      "type": "object",
+      "required": [
+        "type",
+        "vertices", "faces"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Polyhedron"
+          ]
+          },
+           "vertices": {
+             "type": "array",
+             "items": {
+               "type": "array",
+               "items": {
+                 "type": "number"
+               },
+               "minItems": 3,
+               "maxItems": 3
+             }
+           },
+           "faces": {
+             "type": "array",
+             "items": {
+               "type": "array",
+               "items": {
+                 "type": "integer",
+                 "minimum": 0
+               },
+               "minItems": 3
+             }
+           }
+         }
+      }
+    }
+  ]
+}

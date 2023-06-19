@@ -1,0 +1,110 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+    "linkedDataset": "https://doi.org/10.25493/T686-7BX"
+  },
+  "LocareCollection": [
+    {
+      "type": "LocareObject",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+              265,
+              822,
+              388
+            ],
+            [
+              123,
+              827,
+              386
+            ],
+            [
+              268,
+              833,
+              220
+            ],
+            [
+              126,
+              838,
+              218
+            ]
+        ]
+      },
+      "properties": {
+        "name": "H108c_Nissl_coronal_s001",
+        "description": "position of brain section image"
+      }
+    },
+    {
+      "type": "LocareObject",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              263,
+              822,
+              372
+            ],
+            [
+              139,
+              818,
+              371
+            ],
+            [
+              265,
+              832,
+              221
+            ],
+            [
+              140,
+              837,
+              219
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "H108c_Nissl_coronal_s002",
+        "description": "position of brain section image"
+      }
+    },
+    {
+      "type": "LocareObject",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              269,
+              819,
+              381
+            ],
+            [
+              128,
+              824,
+              381
+            ],
+            [
+              271,
+              830,
+              224
+            ],
+            [
+              130,
+              835,
+              223
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "H108c_Nissl_coronal_s003",
+        "description": "position of brain section image"
+      }
+    }
+  ]
+}

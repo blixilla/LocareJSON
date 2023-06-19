@@ -11,15 +11,15 @@
       "coordinates": [
         [
           [
-            135.9,
-            193.3,
-            187.2
+            310.3,
+            227.9,
+            206.5
           ]
         ]
       ]
     },
     "properties": {
-      "name": "EP23HI",
+      "name": "AD5",
       "description": "position of neuronal somata centroid"
     }
   }  

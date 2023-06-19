@@ -16,9 +16,13 @@
         "commonCoordinateSpaceVersion": {
           "type": "string",
           "format": "uri"
+        },
+        "linkedDataset": {
+          "type": "string",
+          "format": "uri"
         }
       },
-      "required": ["commonCoordinateSpaceVersion"]
+      "required": ["commonCoordinateSpaceVersion", "linkedDataset"]
     },
     "LocareObject": {
       "type": "object",
@@ -53,10 +57,6 @@
     "properties": {
       "type": "object",
       "properties": {
-        "linkedDataset": {
-          "type": "string",
-          "format": "uri"
-        },
         "name": {
           "type": "string"
         },
@@ -64,7 +64,7 @@
           "type": "string"
         }
       },
-      "required": ["linkedDataset", "name", "description"]
+      "required": ["name", "description"]
     }
   },
   "required": ["type", "version", "metadata", "LocareObject", "properties"]

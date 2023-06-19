@@ -1,0 +1,283 @@
+{
+  "type": "LocareJSON",
+  "version":"0.1",
+  "metadata": {
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01"
+  },
+   "LocareCollection": {
+    "features": [
+      {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                200,
+                761,
+                391
+          ]
+        },
+        "properties": {
+          "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+          "name": "Channel 1",
+          "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                198,
+                687,
+                407
+          ]
+        },
+        "properties": {
+          "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+          "name": "Channel 2",
+          "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                291,
+                762,
+                391
+          ]
+        },
+        "properties": {
+          "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+          "name": "Channel 3",
+          "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                284,
+                689,
+                411
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 4",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                123,
+                615,
+                405
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 5",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                197,
+                617,
+                424
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 6",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                281,
+                619,
+                428
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 7",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                358,
+                619,
+                409
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 8",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                118,
+                544,
+                418
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 9",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                192,
+                547,
+                431
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 10",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                283,
+                548,
+                436
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 11",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                356,
+                549,
+                425
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 12",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                115,
+                466,
+                414
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 13",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                195,
+                470,
+                439
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 14",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                280,
+                471,
+                440
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 15",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                361,
+                471,
+                425
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Channel 16",
+        "description": "position of epidural EEG electrode"
+         }
+        },
+        {
+        "type": "LocareObject",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+                243,
+                379,
+                430
+          ]
+        },
+        "properties": {
+        "linkedDataset": "https://doi.org/10.25493/5ZJY-PHB",
+        "name": "Ground",
+        "description": "position of epidural EEG electrode"
+        }
+      }
+    ]
+    }
+  }
