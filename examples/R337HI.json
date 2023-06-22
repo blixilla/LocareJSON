@@ -1,48 +1,50 @@
 {
-  "type": "LocareJSON",
-  "version":"0.1",
-  "metadata": {
-    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-    "linkedDataset": "https://doi.org/10.25493/AWS5-MZG"
-  },
-  "LocareCollection": [
-  {  
-    "LocareObject": {
-        "geometry": {
-        "type": "Point",
-        "coordinates": [
-            [
-            [
-                259.2,
-                267.8,
-                175.2
-            ]
-            ]
-        ]
+    "type": "LocareJSON",
+    "version": "0.1",
+    "metadata": {
+        "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+        "linkedDataset": "https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+        {
+            "LocareObject": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        [
+                            [
+                                259.2,
+                                267.8,
+                                175.2
+                            ]
+                        ]
+                    ]
+                },
+                "properties": {
+                    "name": "LP3-ANTSOMA",
+                    "description": "position of neuronal somata centroid"
+                }
+            }
         },
-        "properties": {
-        "name": "LP3-ANTSOMA",
-        "description": "position of neuronal somata centroid"
+        {
+            "LocareObject": {
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        [
+                            [
+                                293.2,
+                                218.9,
+                                198.7
+                            ]
+                        ]
+                    ]
+                },
+                "properties": {
+                    "name": "LP4-POSTSOMA",
+                    "description": "position of neuronal somata centroid"
+                }
+            }
         }
-    }  
-  },
-  {  
-    "LocareObject": {
-        "geometry": {
-        "type": "Point",
-        "coordinates": [
-            [
-            [
-                293.2,
-                218.9,
-                198.7
-            ]
-            ]
-        ]
-        },
-        "properties": {
-        "name": "LP4-POSTSOMA",
-        "description": "position of neuronal somata centroid"
-        }
-    }  
-  }
+    ]
+}
