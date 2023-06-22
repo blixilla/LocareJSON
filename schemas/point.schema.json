@@ -67,5 +67,5 @@
       "required": ["linkedDataset", "name", "description"]
     }
   },
-  "required": ["type", "version", "metadata", "LocareObjects", "properties"]
+  "required": ["type", "version", "metadata", "LocareObject", "properties"]
 }

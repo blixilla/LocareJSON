@@ -5,7 +5,7 @@
     "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
     "linkedDataset": "https://doi.org/10.25493/AWS5-MZG"
   },
-  "LocareObjects": {
+  "LocareObject": {
     "geometry": {
       "type": "Point",
       "coordinates": [
