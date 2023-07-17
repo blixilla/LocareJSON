@@ -1,0 +1,51 @@
+{
+    "type": "LocareJSON",
+    "version":"0.2",
+    "metadata": {
+      "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+      "linkedDataset": "https://doi.org/10.25493/AWS5-MZG",
+      "relatedDataset": "TBD-deriveddatasetDOI"
+    },
+    "LocareCollection": [
+    {  
+      "LocareObject": {
+          "geometry": {
+          "type": "Point",
+          "coordinates": [
+              [
+              [
+                  162.3,
+                  233.6,
+                  169.3
+              ]
+              ]
+          ]
+          },
+          "properties": {
+          "name": "SB14-PO5",
+          "description": "position of neuronal somata centroid"
+          }
+      }  
+    },
+    {  
+      "LocareObject": {
+          "geometry": {
+          "type": "Point",
+          "coordinates": [
+              [
+              [
+                  225.7,
+                  226.5,
+                  266.5
+              ]
+              ]
+          ]
+          },
+          "properties": {
+          "name": "SB14-PO6",
+          "description": "position of neuronal somata centroid"
+          }
+      }  
+    }
+  ]
+}

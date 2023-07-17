@@ -1,0 +1,27 @@
+{
+    "type":"LocareJSON",
+    "version":"0.2",
+    "metadata":{
+       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+       "originalPublication":"https://doi.org/10.25493/AWS5-MZG",
+       "relatedDataset": "TBD-deriveddatasetDOI"
+    },
+    "LocareCollection": [
+    {
+       "LocareObject":{
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                135.9,
+                193.3,
+                187.2
+             ]
+            }
+          },
+          "properties":{
+             "name":"EP23HI",
+             "description":"position of neuronal somata centroid"
+        }
+    } 
+  ]  
+}

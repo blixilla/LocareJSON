@@ -1,0 +1,55 @@
+{
+    "type":"LocareJSON",
+    "version":"0.2",
+    "metadata":{
+       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+       "originalPublication":"https://doi.org/10.25493/2MX9-3XF",
+       "relatedPublication": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
+       "relatedDataset": "TBD-deriveddatasetDOI",
+       "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b/F10_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b "
+    },
+    "LocareCollection": [
+    {
+       "LocareObject":{
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                186.9,
+                780.0,
+                321.5
+             ],
+             "radius": {
+                "value": 211.01,
+                "unit": "µm"
+             }
+          },
+          "properties":{
+             "name":"F10-BDA-s001",
+             "description":"representation of injection site core",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b/F10_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b &section=s001"
+          }
+       }
+    },
+    {
+       "LocareObject":{
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                186.9,
+                780.0,
+                321.5
+                ],
+             "radius": {
+                  "value": 553.96,
+                  "unit": "µm"
+             }
+          },
+          "properties":{
+             "name":"F10-BDA-s001",
+             "description":"representation of injection site shell",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b/F10_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-38f117b1-c33b-448f-ab46-4800a66c7d8b &section=s001"
+          }
+       }
+    }
+  ]
+}

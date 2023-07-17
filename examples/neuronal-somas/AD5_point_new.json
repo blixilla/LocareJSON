@@ -1,0 +1,27 @@
+{
+    "type":"LocareJSON",
+    "version":"0.2",
+    "metadata":{
+       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+       "originalPublication":"https://doi.org/10.25493/AWS5-MZG",
+       "relatedDataset": "TBD-deriveddatasetDOI"
+    },
+    "LocareCollection": [
+    {
+       "LocareObject":{
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                310.3,
+                227.9,
+                206.5
+             ]
+            }
+          },
+          "properties":{
+             "name":"AD5",
+             "description":"position of neuronal somata centroid"
+        }
+    } 
+  ]  
+}
