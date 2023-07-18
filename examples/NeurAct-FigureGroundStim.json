@@ -6,7 +6,7 @@
        "sourcePublication":"https://doi.org/10.25493/NHHM-1S5",
        "relatedPublications": ["https://doi.org/10.1038/s41598-018-36087-8"]
     },
-    "LocareObject": {  
+    "LocareCollection": [  
     {
       "geometry": {
         "type": "LineString",
@@ -28,5 +28,5 @@
         "description": "position of electrode in mouse visual cortex representing data from sourcePublication"
       }
     } 
-  } 
+  ] 
 }

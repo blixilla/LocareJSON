@@ -6,7 +6,8 @@
     "sourcePublication": "https://doi.org/10.25493/Z9J0-ZZQ",
     "relatedPublications": ["https://doi.org/10.3389/fnsys.2020.00031"]
   },
-  "LocareObject": {
+  "LocareCollection": [
+    {
     "geometry": {
       "type": "Polyhedron",
       "coordinates": {
@@ -61,10 +62,12 @@
           [4, 5, 6, 7]
           ]
       }
-    }
-  },
+    },
   "properties": {
     "name": "GCaMP-ChR2-17",
-    "description": "area captured by calcium imaging"
+    "description": "position of area captured by calcium imaging representing data from sourcePublication"
+    }
   }
+ ]
 }
+
