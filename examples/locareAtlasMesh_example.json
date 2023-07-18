@@ -1,0 +1,20 @@
+{
+    "type":"LocareJSON",
+    "version":"1.0",
+    "metadata":{
+       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+       "sourcePublication":"https://doi.org/10.25493/YMV3-45H",
+       "relatedPublications": ["https://doi.org/10.25493/A4RG-CJN", "https://doi.org/10.25493/93YQ-6QM"]
+    },
+    "LocareCollection": [
+    {
+          "atlasMeshAssociation":{
+             "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaBarrelField"
+          },  
+          "properties":{
+             "name":"NeuromodNeocortex",
+             "description":"data shared from source- and relatedPublications are associated to primary somatosensory area - barrel field (S1-bf)"
+          }
+       }
+    ]
+}

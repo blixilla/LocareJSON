@@ -1,0 +1,46 @@
+{
+    "type":"LocareJSON",
+    "version":"1.0",
+    "metadata":{
+        "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+        "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+     {
+        "atlasMeshAssociation":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosterolateralNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"HBP16-VPL1",
+            "description":"data shared from sourcePublication, in subfolder VPL1 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+        }   
+     },
+     {
+        "atlasMeshAssociation":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosteromedialNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"HBP16-VPM1",
+            "description":"data shared from sourcePublication, in subfolder VPM1 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+        }   
+     },
+     {
+        "atlasMeshAssociation":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosteromedialNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"HBP16-VPM2",
+            "description":"data shared from sourcePublication, in subfolder VPM2 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+        }   
+     },
+     {
+        "atlasMeshAssociation":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosteromedialNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"HBP16-VPM3",
+            "description":"data shared from sourcePublication, in subfolder VPM3 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+        }   
+     }
+  ]
+}

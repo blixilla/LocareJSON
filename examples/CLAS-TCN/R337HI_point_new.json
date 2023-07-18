@@ -1,51 +1,46 @@
 {
     "type": "LocareJSON",
-    "version":"0.2",
+    "version":"1.0",
     "metadata": {
       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-      "linkedDataset": "https://doi.org/10.25493/AWS5-MZG",
-      "relatedDataset": "TBD-deriveddatasetDOI"
+      "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
     },
     "LocareCollection": [
     {  
-      "LocareObject": {
           "geometry": {
           "type": "Point",
           "coordinates": [
               [
               [
-                  163.9,
-                  228.8,
-                  166.3
+                259.2,
+                267.8,
+                175.2
               ]
               ]
           ]
           },
           "properties": {
-          "name": "R1-PO1",
-          "description": "position of neuronal somata centroid"
+          "name": "R337HI-LP3-ANTSOMA",
+          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP3-ANTSOMA of R337HI"
           }
-      }  
     },
     {  
-      "LocareObject": {
           "geometry": {
           "type": "Point",
           "coordinates": [
               [
               [
-                  261.1,
-                  232.1,
-                  308.9
+                293.2,
+                218.9,
+                198.7
               ]
               ]
           ]
           },
           "properties": {
-          "name": "R1-PO2",
-          "description": "position of neuronal somata centroid"
-          }
-      }  
+          "name": "R337HI-LP4-POSTSOMA",
+          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP4-POSTSOMA of R337HI"
+          } 
     }
   ]
 }

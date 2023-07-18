@@ -1,66 +1,69 @@
 {
   "type": "LocareJSON",
-  "version":"0.1",
+  "version":"1.0",
   "metadata": {
-    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
+    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+    "sourcePublication": "https://doi.org/10.25493/Z9J0-ZZQ",
+    "relatedPublications": ["https://doi.org/10.3389/fnsys.2020.00031"]
   },
   "LocareObject": {
     "geometry": {
       "type": "Polyhedron",
-      "vertices": [
-        [
-            230,
-            322.5,
-            294
-          ],
+      "coordinates": {
+        "vertices": [
           [
-            54.8,
-            322.5,
-            277.2
+              230,
+              322.5,
+              294
+            ],
+            [
+              54.8,
+              322.5,
+              277.2
+            ],
+            [
+              230,
+              146.5,
+              294
+            ],
+            [
+              54.8,
+              146.5,
+              277.2
+            ],
+            [
+              224.867,
+              322.5,
+              240.392
+            ],
+            [
+              49.667,
+              322.5,
+              233.592
+            ],
+            [
+              224.867,
+              146.5,
+              240.392
+            ],
+            [
+              49.667,
+              146.5,
+              223.592
+            ]
           ],
-          [
-            230,
-            146.5,
-            294
-          ],
-          [
-            54.8,
-            146.5,
-            277.2
-          ],
-          [
-            224.867,
-            322.5,
-            240.392
-          ],
-          [
-            49.667,
-            322.5,
-            233.592
-          ],
-          [
-            224.867,
-            146.5,
-            240.392
-          ],
-          [
-            49.667,
-            146.5,
-            223.592
+        "faces": [
+          [0, 1, 2, 3],
+          [0, 3, 7, 4],
+          [3, 2, 6, 7],
+          [1, 2, 6, 5],
+          [0, 1, 5, 4],
+          [4, 5, 6, 7]
           ]
-        ],
-      "faces": [
-        [0, 1, 2, 3],
-        [0, 3, 7, 4],
-        [3, 2, 6, 7],
-        [1, 2, 6, 5],
-        [0, 1, 5, 4],
-        [4, 5, 6, 7]
-        ]
+      }
     }
   },
   "properties": {
-    "linkedDataset": "https://doi.org/10.25493/Z9J0-ZZQ",
     "name": "GCaMP-ChR2-17",
     "description": "area captured by calcium imaging"
   }

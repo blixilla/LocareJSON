@@ -1,0 +1,19 @@
+{
+  "type":"LocareJSON",
+  "version":"1.0",
+  "metadata":{
+      "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+      "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
+  },
+  "LocareCollection": [
+   {
+      "atlasMeshAssociation":{
+          "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_lateralPosteriorNucleusOfTheThalamus"
+      },  
+      "properties":{
+          "name":"HBP20-LP6",
+          "description":"data shared from sourcePublication, in subfolder LP6 of HBP20, is associated to lateral posterior nucleus of the thalamus (LP)"
+      }   
+   }
+  ]
+}

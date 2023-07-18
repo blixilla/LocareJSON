@@ -1,14 +1,12 @@
 {
     "type": "LocareJSON",
-    "version":"0.2",
+    "version":"1.0",
     "metadata": {
       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-      "linkedDataset": "https://doi.org/10.25493/AWS5-MZG",
-      "relatedDataset": "TBD-deriveddatasetDOI"
+      "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
     },
     "LocareCollection": [
     {  
-      "LocareObject": {
           "geometry": {
           "type": "Point",
           "coordinates": [
@@ -22,13 +20,11 @@
           ]
           },
           "properties": {
-          "name": "LGN1-DORSALSOMA",
-          "description": "position of neuronal somata centroid"
+          "name": "R281HI-LGN1-DORSALSOMA",
+          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LGN-DORSALSOMA of R281HI"
           }
-      }  
     },
     {  
-      "LocareObject": {
           "geometry": {
           "type": "Point",
           "coordinates": [
@@ -42,10 +38,9 @@
           ]
           },
           "properties": {
-          "name": "LP5-VENTRALSOMA",
-          "description": "position of neuronal somata centroid"
-          }
-      }  
+          "name": "R281HI-LP5-VENTRALSOMA",
+          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP5-VENTRALSOMA of R281HI"
+          } 
     }
   ]
 }
