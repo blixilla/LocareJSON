@@ -1,6 +1,6 @@
 {
     "type":"LocareJSON",
-    "version":"1.0",
+    "version":"1.0.0",
     "metadata":{
        "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
        "sourcePublication":"https://doi.org/10.25493/2MX9-3XF",
@@ -23,7 +23,7 @@
           },
           "properties":{
              "name":"F5-BDA",
-             "description":"position of injection site core (derived from F5_BDA_s019.tif) representing data from sourcePublication, in subfolder BDA of F5",
+             "description":"position of injection site core (registered from F5_BDA_s019.tif) representing data from sourcePublication, in subfolder BDA of F5",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-f438aaf9-67b9-4add-9650-a130b99609b0/F5_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-f438aaf9-67b9-4add-9650-a130b99609b0&section=s019"
           }
     },
@@ -42,7 +42,7 @@
           },
           "properties":{
              "name":"F5-BDA-s019",
-             "description":"position of injection site shell (derived from F5_BDA_s019.tif) representing data from sourcePublication, in subfolder BDA of F5",
+             "description":"position of injection site shell (registered from F5_BDA_s019.tif) representing data from sourcePublication, in subfolder BDA of F5",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-f438aaf9-67b9-4add-9650-a130b99609b0/F5_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-f438aaf9-67b9-4add-9650-a130b99609b0&section=s019"
           }
     }

@@ -1,16 +1,14 @@
 {
     "type":"LocareJSON",
-    "version":"0.2",
+    "version":"1.0.0",
     "metadata":{
        "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
-       "originalPublication":"https://doi.org/10.25493/2MX9-3XF",
-       "relatedPublication": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
-       "relatedDataset": "TBD-deriveddatasetDOI",
+       "sourcePublication":"https://doi.org/10.25493/2MX9-3XF",
+       "relatedPublications": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
        "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171/F24_PHAL_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171"
     },
     "LocareCollection": [
     {
-       "LocareObject":{
           "geometry":{
              "type":"Sphere",
              "coordinates":[
@@ -24,14 +22,12 @@
              }
           },
           "properties":{
-             "name":"F24-BDA-s037",
-             "description":"representation of injection site core",
+             "name":"F24-BDA",
+             "description":"position of injection site core (registered from F24_BDA_s037.tif) representing data from sourcePublication, in subfolder BDA of F24",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171/F24_PHAL_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171&section=s037"
           }
-       }
     },
     {
-       "LocareObject":{
           "geometry":{
              "type":"Sphere",
              "coordinates":[
@@ -45,11 +41,10 @@
              }
           },
           "properties":{
-             "name":"F24-BDA-s037",
-             "description":"representation of injection site shell",
+             "name":"F24-BDA",
+             "description":"position of injection site shell (registered from F24_BDA_s037.tif) representing data from sourcePublication, in subfolder BDA of F24",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171/F24_PHAL_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-c6903225-4d20-4fc4-8a1e-7d42bdaf5171&section=s037"
           }
-       }
     }
   ]
 }

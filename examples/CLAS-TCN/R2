@@ -1,6 +1,6 @@
 {
     "type": "LocareJSON",
-    "version":"1.0",
+    "version":"1.0.0",
     "metadata": {
       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
       "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"

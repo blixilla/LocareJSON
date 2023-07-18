@@ -8,12 +8,12 @@
     },
     "LocareCollection": [
     {
-          "atlasMesh":{
+          "atlasMeshAssociation":{
              "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaBarrelField"
           },  
           "properties":{
              "name":"NeuromodNeocortex",
-             "description":"all data shared from sourcePublication and relatedPublications are associated to primary somatosensory area - barrel field (S1-bf)"
+             "description":"data shared from source- and relatedPublications are associated to primary somatosensory area - barrel field (S1-bf)"
           }
        }
     ]
