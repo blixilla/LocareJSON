@@ -1,4 +1,5 @@
 {
+  "$id": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.0.0/schemas/locarePolyhedron.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Polyhedron",
   "type": "object",
@@ -53,12 +54,6 @@
     "properties": {
       "type": "object",
       "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "LocareObject"
-          ]
-        },
         "name": {
           "type": "string"
         },
@@ -71,7 +66,6 @@
         }
       },
       "required": [
-        "type",
         "name",
         "description"
       ]

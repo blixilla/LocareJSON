@@ -13,37 +13,40 @@ on:
       - 'schemas/*.json'
   workflow_dispatch:
 
-
 jobs:
-  check-json-schema:
+  validate:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
 
-    - name: Cache pip
-      uses: actions/cache@v3
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-check-jsonschema
-        restore-keys: |
-          ${{ runner.os }}-pip-
+      - name: Cache npm dependencies
+        uses: actions/cache@v2
+        with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+                ${{ runner.os }}-node-
 
-    - name: Install check-jsonschema
-      run: pip install check-jsonschema
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats --silent
 
-    - name: Validate JSON documents
-      run: |
-        for filename in examples/*_*.json; do
-          base=$(basename -- "$filename")
-          name="${base%.*}"
-          IFS="_" read -ra parts <<< "$name"
-          objectType="${parts[-1]}"
-          check-jsonschema --schemafile "schemas/${objectType}.schema.json" "$filename" 
-        done
+      - name: Validate JSON files
+        run: |
+            shopt -s nullglob
+            for json_file in examples/*.json
+            do
+                schema_file="schemas/locareCollection.schema.json"
+                echo "Validating $json_file with $schema_file"
+                ajv validate -c ajv-formats -s $schema_file -d $json_file -r schemas/locareAtlasMesh.schema.json -r schemas/locareCylinder.schema.json -r schemas/locareLineString.schema.json -r schemas/locarePoint.schema.json -r schemas/locarePolygon.schema.json -r schemas/locarePolyhedron.schema.json -r schemas/locareSphere.schema.json
+                if [ $? -ne 0 ]; then
+                    echo "$json_file is not valid according to $schema_file"
+                    exit 1
+                fi
+            done
         
