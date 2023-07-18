@@ -46,22 +46,22 @@
       "items": {
         "anyOf": [
           {
-            "$ref": "./schemas/locareSphere.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locareSphere.schema.json"
           },
           {
-            "$ref": "./schemas/locarePoint.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locarePoint.schema.json"
           },
           {
-            "$ref": "./schemas/locareCylinder.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locareCylinder.schema.json"
           },
           {
-            "$ref": "./schemas/locareLineString.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locareLineString.schema.json"
           },
           {
-            "$ref": "./schemas/locarePolygon.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locarePolygon.schema.json"
           },
           {
-            "$ref": "./schemas/locarePolyhedron.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/blixhavn/test-schemas/schemas/locarePolyhedron.schema.json"
           }
         ]
       }
