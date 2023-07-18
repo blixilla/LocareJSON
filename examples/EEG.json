@@ -1,6 +1,6 @@
 {
   "type": "LocareJSON",
-  "version": "1.0",
+  "version": "1.0.0",
   "metadata": {
     "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
     "sourcePublication": "https://doi.org/10.25493/4SPM-V00",
@@ -18,7 +18,7 @@
         },
         "properties": {
           "name": "Channel 1",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 1 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -32,7 +32,7 @@
         },
         "properties": {
           "name": "Channel 2",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 2 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -46,7 +46,7 @@
         },
         "properties": {
           "name": "Channel 3",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 3 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -60,7 +60,7 @@
         },
         "properties": {
           "name": "Channel 4",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 4 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -74,7 +74,7 @@
         },
         "properties": {
           "name": "Channel 5",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 5 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -88,7 +88,7 @@
         },
         "properties": {
           "name": "Channel 6",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 6 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -102,7 +102,7 @@
         },
         "properties": {
           "name": "Channel 7",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 7 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -116,7 +116,7 @@
         },
         "properties": {
           "name": "Channel 8",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 8 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -130,7 +130,7 @@
         },
         "properties": {
           "name": "Channel 9",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 9 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -144,7 +144,7 @@
         },
         "properties": {
           "name": "Channel 10",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 10 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -158,7 +158,7 @@
         },
         "properties": {
           "name": "Channel 11",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 11 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -172,7 +172,7 @@
         },
         "properties": {
           "name": "Channel 12",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 12 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -186,7 +186,7 @@
         },
         "properties": {
           "name": "Channel 13",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 13 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -200,7 +200,7 @@
         },
         "properties": {
           "name": "Channel 14",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 14 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -214,7 +214,7 @@
         },
         "properties": {
           "name": "Channel 15",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 15 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -228,7 +228,7 @@
         },
         "properties": {
           "name": "Channel 16",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Channel 16 representing data from sourcePublication and relatedPublications"
         }
     },
     {
@@ -242,7 +242,7 @@
         },
         "properties": {
           "name": "Ground",
-          "description": "position of epidural EEG electrode"
+          "description": "position of epidural EEG electrode Ground representing data from sourcePublication and relatedPublications"
         }
     }
   ]

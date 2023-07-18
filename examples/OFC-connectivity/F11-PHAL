@@ -26,7 +26,6 @@
              "description":"position of injection site core (registered from F11_PHAL_s025.tif) representing data from sourcePublication, in subfolder PHAL of F11",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-9d7cb1b9-df0f-4145-88fb-3842a01c67ac/F11_PHAL_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-9d7cb1b9-df0f-4145-88fb-3842a01c67ac&section=s025"
           }
-       }
     },
     {
           "geometry":{
@@ -46,7 +45,6 @@
              "description":"position of injection site shell (registered from F11_PHAL_s025.tif) representing data from sourcePublication, in subfolder PHAL of F11",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-9d7cb1b9-df0f-4145-88fb-3842a01c67ac/F11_PHAL_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-9d7cb1b9-df0f-4145-88fb-3842a01c67ac&section=s025"
           }
-       }
     }
   ]
 }   

@@ -10,15 +10,15 @@
           "geometry":{
              "type":"Point",
              "coordinates":[
-                135.9,
-                193.3,
-                187.2
+                310.3,
+                227.9,
+                206.5
              ]
-            }
           },
           "properties":{
-             "name":"EP23HI-LP2",
-             "description":"position of neuronal somata centroid representing data from sourcePublication, in subfolder LP2 of EP23HI"
+             "name":"AD5-LP1",
+             "description":"position of neuronal somata centroid representing data from sourcePublication, in subfolder LP1 of AD5"
         }
+    }    
   ]  
 }

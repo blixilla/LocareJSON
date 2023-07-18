@@ -22,7 +22,7 @@
              }
           },
           "properties":{
-             "name":"F9-BDA-s025",
+             "name":"F9-BDA",
              "description":"position of injection site core (registered from F9_BDA_s025.tif) representing data from sourcePublication, in subfolder BDA of F9",
              "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-48b4569f-7fc7-4917-bd23-18046823183c/F9_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-48b4569f-7fc7-4917-bd23-18046823183c&section=s025"
           }
