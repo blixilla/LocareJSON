@@ -1,13 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LocareJSON",
   "type": "object",
   "properties": {
     "type": {
       "type": "string",
-      "enum": ["LocareJSON"]
+      "enum": [
+        "LocareJSON"
+      ]
     },
     "version": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^\\d\\.\\d(?:\\.\\d+)*$"
     },
     "metadata": {
       "type": "object",
@@ -16,48 +20,57 @@
           "type": "string",
           "format": "uri"
         },
-        "linkedDataset": {
+        "sourcePublication": {
+          "type": "string",
+          "format": "uri"
+        },
+        "relatedPublications": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "linkedURI": {
           "type": "string",
           "format": "uri"
         }
       },
-      "required": ["commonCoordinateSpaceVersion", "linkedDataset"]
+      "required": [
+        "commonCoordinateSpaceVersion",
+        "sourcePublication"
+      ]
     },
     "LocareCollection": {
       "type": "array",
       "items": {
-        "type": "object",
-        "properties": {
-          "type": {
-            "type": "string",
-            "enum": ["LocareObject"]
+        "anyOf": [
+          {
+            "$ref": "./schemas/locareSphere.schema.json"
           },
-          "geometry": {
-            "anyOf": [
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/cylinder.schema.json" },
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/lineString.schema.json" },
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/point.schema.json" },
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/polygon.schema.json" },
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/polyhedron.schema.json" },
-              { "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/main/schemas/sphere.schema.json" }
-            ]
+          {
+            "$ref": "./schemas/locarePoint.schema.json"
           },
-          "properties": {
-            "type": "object",
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              }
-            },
-            "required": ["name", "description"]
+          {
+            "$ref": "./schemas/locareCylinder.schema.json"
+          },
+          {
+            "$ref": "./schemas/locareLineString.schema.json"
+          },
+          {
+            "$ref": "./schemas/locarePolygon.schema.json"
+          },
+          {
+            "$ref": "./schemas/locarePolyhedron.schema.json"
           }
-        },
-        "required": ["type", "geometry", "properties"]
+        ]
       }
     }
   },
-  "required": ["type", "version", "metadata", "LocareCollection"]
+  "required": [
+    "type",
+    "version",
+    "metadata",
+    "LocareCollection"
+  ]
 }

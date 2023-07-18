@@ -1,0 +1,195 @@
+{
+   "type": "LocareJSON",
+   "version": "0.0.3",
+   "metadata": {
+      "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+      "sourcePublication": "https://doi.org/10.25493/2MX9-3XF",
+      "relatedPublications": [
+         "https://doi.org/10.1002/cne.23442",
+         "https://doi.org/10.3389/fnsys.2019.00038"
+      ],
+      "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20"
+   },
+   "LocareCollection": [
+      {
+         "geometry": {
+            "type": "Sphere",
+            "coordinates": [
+               234.6,
+               742.8,
+               292.6
+            ],
+            "radius": {
+               "value": 312.89,
+               "unit": "µm"
+            }
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "F3-PHAL-s027",
+            "description": "representation of injection site core",
+            "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20&section=s027"
+         }
+      },
+      {
+         "geometry": {
+            "type": "Point",
+            "coordinates": [
+               156.1,
+               387.9,
+               257.6
+            ]
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "EEG2",
+            "description": "position of EEG electrode"
+         }
+      },
+      {
+         "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+               [
+                  104.2,
+                  514.4,
+                  414.4
+               ],
+               [
+                  65.8,
+                  479.8,
+                  290.2
+               ]
+            ],
+            "radius": {
+               "value": 1800,
+               "unit": "µm"
+            }
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "PRH bundle",
+            "description": "position of perirhinal tetrode bundle",
+            "linkedURI": "https://doi.org/10.25493/1PEP-K9F"
+         }
+      },
+      {
+         "geometry": {
+           "type": "LineString",
+           "coordinates": [
+               [
+                 217.5,
+                 751.2,
+                 374.6
+               ],
+               [
+                 218.9,
+                 750.9,
+                 389.7
+               ]
+             ]
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "j10_M2_1",
+            "description": "position of implanted bipolar electrode in right secondary motor cortex",
+            "linkedURI": "https://doi.org/10.25493/5ZJY-PHB"
+         }
+      },
+      {
+         "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+               [
+                  412.5988611096367,
+                  645.3546233093585,
+                  404.57540775996335
+               ],
+               [
+                  425.07881488356827,
+                  404.8759119672088,
+                  405.4494126794739
+               ],
+               [
+                  435.9122005240254,
+                  645.9616126673037,
+                  238.6937560963999
+               ],
+               [
+                  448.392154297957,
+                  405.48290132515405,
+                  239.56776101591043
+               ]
+            ]
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "H201a_Timm_dark_sagittal_s001",
+            "description": "position of brain section image"
+         }
+      },
+      {
+         "geometry": {
+            "type": "Polyhedron",
+            "coordinates": {
+               "vertices": [
+                  [
+                     230,
+                     322.5,
+                     294
+                  ],
+                  [
+                     54.8,
+                     322.5,
+                     277.2
+                  ],
+                  [
+                     230,
+                     146.5,
+                     294
+                  ],
+                  [
+                     54.8,
+                     146.5,
+                     277.2
+                  ],
+                  [
+                     224.867,
+                     322.5,
+                     240.392
+                  ],
+                  [
+                     49.667,
+                     322.5,
+                     233.592
+                  ],
+                  [
+                     224.867,
+                     146.5,
+                     240.392
+                  ],
+                  [
+                     49.667,
+                     146.5,
+                     223.592
+                  ]
+               ],
+               "faces": [
+                  [0, 1, 2, 3],
+                  [0, 3, 7, 4],
+                  [3, 2, 6, 7],
+                  [1, 2, 6, 5],
+                  [0, 1, 5, 4],
+                  [4, 5, 6, 7]
+               ]
+            }
+         },
+         "properties": {
+            "type": "LocareObject",
+            "name": "GCaMP-ChR2-17",
+            "description": "area captured by calcium imaging",
+            "linkedURI": "https://doi.org/10.25493/Z9J0-ZZQ"
+         }
+      }
+   ]
+}

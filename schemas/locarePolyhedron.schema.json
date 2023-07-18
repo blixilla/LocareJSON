@@ -1,35 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Polyhedron",
   "type": "object",
   "properties": {
-    "type": {
-      "type": "string",
-      "enum": ["LocareJSON"]
-    },
-    "version": {
-      "type": "string",
-      "pattern": "^\\d\\.\\d(?:\\.\\d+)*$"
-    },
-    "metadata": {
+    "geometry": {
       "type": "object",
       "properties": {
-        "commonCoordinateSpaceVersion": {
+        "type": {
           "type": "string",
-          "format": "uri"
-        }
-      },
-      "required": ["commonCoordinateSpaceVersion"]
-    },
-    "LocareObject": {
-      "type": "object",
-      "properties": {
-        "geometry": {
+          "enum": [
+            "Polyhedron"
+          ]
+        },
+        "coordinates": {
           "type": "object",
           "properties": {
-            "type": {
-              "type": "string",
-              "enum": ["Polyhedron"]
-            },
             "vertices": {
               "type": "array",
               "items": {
@@ -39,41 +24,61 @@
                 },
                 "minItems": 3,
                 "maxItems": 3
-              }
+              },
+              "minItems": 4
             },
             "faces": {
               "type": "array",
               "items": {
                 "type": "array",
                 "items": {
-                  "type": "integer",
-                  "minimum": 0
+                  "type": "integer"
                 },
                 "minItems": 3
-              }
+              },
+              "minItems": 4
             }
           },
-          "required": ["type", "vertices", "faces"]
+          "required": [
+            "vertices",
+            "faces"
+          ]
         }
       },
-      "required": ["geometry"]
+      "required": [
+        "type",
+        "coordinates"
+      ]
     },
     "properties": {
       "type": "object",
       "properties": {
-        "linkedDataset": {
+        "type": {
           "type": "string",
-          "format": "uri"
+          "enum": [
+            "LocareObject"
+          ]
         },
         "name": {
           "type": "string"
         },
         "description": {
           "type": "string"
+        },
+        "linkedURI": {
+          "type": "string",
+          "format": "uri"
         }
       },
-      "required": ["linkedDataset", "name", "description"]
+      "required": [
+        "type",
+        "name",
+        "description"
+      ]
     }
   },
-  "required": ["type", "version", "metadata", "LocareObject", "properties"]
+  "required": [
+    "geometry",
+    "properties"
+  ]
 }
