@@ -8,7 +8,7 @@
     },
     "LocareCollection": [
     {
-          "atlasMeshAssociation":{
+          "atlasMesh":{
              "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaBarrelField"
           },  
           "properties":{

@@ -25,7 +25,6 @@
             }
          },
          "properties": {
-            "type": "LocareObject",
             "name": "F3-PHAL-s027",
             "description": "representation of injection site core",
             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20&section=s027"
@@ -41,7 +40,6 @@
             ]
          },
          "properties": {
-            "type": "LocareObject",
             "name": "EEG2",
             "description": "position of EEG electrode"
          }
@@ -67,7 +65,6 @@
             }
          },
          "properties": {
-            "type": "LocareObject",
             "name": "PRH bundle",
             "description": "position of perirhinal tetrode bundle",
             "linkedURI": "https://doi.org/10.25493/1PEP-K9F"
@@ -90,7 +87,6 @@
              ]
          },
          "properties": {
-            "type": "LocareObject",
             "name": "j10_M2_1",
             "description": "position of implanted bipolar electrode in right secondary motor cortex",
             "linkedURI": "https://doi.org/10.25493/5ZJY-PHB"
@@ -123,7 +119,6 @@
             ]
          },
          "properties": {
-            "type": "LocareObject",
             "name": "H201a_Timm_dark_sagittal_s001",
             "description": "position of brain section image"
          }
@@ -185,7 +180,6 @@
             }
          },
          "properties": {
-            "type": "LocareObject",
             "name": "GCaMP-ChR2-17",
             "description": "area captured by calcium imaging",
             "linkedURI": "https://doi.org/10.25493/Z9J0-ZZQ"
