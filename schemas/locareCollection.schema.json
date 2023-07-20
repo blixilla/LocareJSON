@@ -17,9 +17,59 @@
     "metadata": {
       "type": "object",
       "properties": {
-        "commonCoordinateSpaceVersion": {
-          "type": "string",
-          "format": "uri"
+        "targetAtlas": {
+          "type": "object",
+          "properties": {
+            "commonCoordinateSpaceVersion": {
+              "type": "string",
+              "format": "uri"
+            },
+            "coordinateOrigin": {
+              "type": "object",
+              "properties": {
+                "dimensions": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "resolution": {
+                  "type": "string"
+                },
+                "x": {
+                  "type": "string"
+                },
+                "y": {
+                  "type": "string"
+                },
+                "z": {
+                  "type": "string"
+                },
+                "origo": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                }
+              },
+              "required": [
+                "dimensions",
+                "resolution",
+                "x",
+                "y",
+                "z",
+                "origo"
+              ]
+            }
+          },
+          "required": [
+            "commonCoordinateSpaceVersion",
+            "coordinateOrigin"
+          ]
         },
         "sourcePublication": {
           "type": "string",
@@ -38,7 +88,7 @@
         }
       },
       "required": [
-        "commonCoordinateSpaceVersion",
+        "targetAtlas",
         "sourcePublication"
       ]
     },

@@ -2,7 +2,17 @@
     "type": "LocareJSON",
     "version":"1.0.0",
     "metadata": {
-      "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+      "targetAtlas": {
+         "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+         "coordinateOrigin": {
+             "dimensions": [456, 528, 320],
+             "resolution": "25um",
+             "x": "left to right",
+             "y": "posterior to anterior",
+             "z": "ventral to dorsal",
+             "origo": [0, 0, 0]
+          }
+      },
       "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
     },
     "LocareCollection": [
@@ -10,13 +20,9 @@
           "geometry": {
           "type": "Point",
           "coordinates": [
-              [
-              [
                   162.3,
                   233.6,
                   169.3
-              ]
-              ]
           ]
           },
           "properties": {
@@ -28,13 +34,9 @@
           "geometry": {
           "type": "Point",
           "coordinates": [
-              [
-              [
                   225.7,
                   226.5,
                   266.5
-              ]
-              ]
           ]
           },
           "properties": {

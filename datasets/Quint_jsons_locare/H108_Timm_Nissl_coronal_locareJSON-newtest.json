@@ -2,7 +2,37 @@
     "type": "LocareJSON",
     "version": "0.1",
     "metadata": {
-        "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+        "targetAtlas": {
+           "targetAtlas": {
+              "targetAtlas": {
+                 "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+                 "coordinateOrigin": {
+                     "dimensions": [512, 1024, 512],
+                     "resolution": "39um",
+                     "x": "left to right",
+                     "y": "posterior to anterior",
+                     "z": "ventral to dorsal",
+                     "origo": [244, 623, 248]
+                  }
+              },
+              "coordinateOrigin": {
+                  "dimensions": [512, 1024, 512],
+                  "resolution": "39um",
+                  "x": "left to right",
+                  "y": "posterior to anterior",
+                  "z": "ventral to dorsal",
+                  "origo": [244, 623, 248]
+               }
+           },
+           "coordinateOrigin": {
+               "dimensions": [512, 1024, 512],
+               "resolution": "39um",
+               "x": "left to right",
+               "y": "posterior to anterior",
+               "z": "ventral to dorsal",
+               "origo": [244, 623, 248]
+            }
+        },
         "scale": "um",
         "linkedDataset": "",
         "viewerLink":"https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-3f70aec6-c645-11ec-be50-00090faa0001/updated_H108_TimmThionin_coronal.json&pyramids=buckets/img-3f70aec6-c645-11ec-be50-00090faa0001/"

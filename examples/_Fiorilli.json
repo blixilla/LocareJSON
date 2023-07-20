@@ -1,0 +1,98 @@
+{
+    "type":"LocareJSON",
+    "version":"1.0.0",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateOrigin": {
+              "dimensions": [512, 1024, 512],
+              "resolution": "39um",
+              "x": "left to right",
+              "y": "posterior to anterior",
+              "z": "ventral to dorsal",
+              "origo": [244, 623, 248]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/AM91-2D",
+       "relatedPublications": ["-insert DOI of relevant paper/dataset-", "-insert DOI of relevant paper/dataset-", "etc."]
+    },
+    "LocareCollection": [  
+    {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+                -insert x-,
+                -insert y-,
+                -insert z-
+                ],
+                [
+                104.0,
+                182.6,
+                244.3
+                ]
+            ],
+            "radius": {
+            "value": -insert number-,
+            "unit": "µm"
+            }
+        },
+        "properties": {
+            "name": "-insert name of folder or subject related to Cylinder-",
+            "description": "-insert description of position and how it related to specific data in the sourcePublication and/or relatedPublications-"
+        }
+    },
+    {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+                -insert x-,
+                -insert y-,
+                -insert z-
+                ],
+                [
+                104.0,
+                182.6,
+                244.3
+                ]
+            ],
+            "radius": {
+            "value": -insert number-,
+            "unit": "µm"
+            }
+        },
+        "properties": {
+            "name": "-insert name of folder or subject related to Cylinder-",
+            "description": "-insert description of position and how it related to specific data in the sourcePublication and/or relatedPublications-"
+        }
+    },
+    {
+        "geometry": {
+          "type": "Cylinder",
+          "coordinates": [
+              [
+                -insert x-,
+                -insert y-,
+                -insert z-
+              ],
+              [
+                104.0,
+                182.6,
+                244.3
+              ]
+          ],
+          "radius": {
+            "value": -insert number-,
+            "unit": "µm"
+          }
+        },
+        "properties": {
+          "name": "-insert name of folder or subject related to Cylinder-",
+          "description": "-insert description of position and how it related to specific data in the sourcePublication and/or relatedPublications-"
+        }
+    }     
+  ] 
+}
+
+  

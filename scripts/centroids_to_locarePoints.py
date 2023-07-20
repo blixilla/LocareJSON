@@ -10,7 +10,17 @@ def create_locarePoints_from_centroids(data, source_publication, linked_dataset=
         "type": "LocareJSON",
         "version": "1.0.0",
         "metadata": {
-            "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+            "targetAtlas": {
+               "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+               "coordinateOrigin": {
+                   "dimensions": [456, 528, 320],
+                   "resolution": "25um",
+                   "x": "left to right",
+                   "y": "posterior to anterior",
+                   "z": "ventral to dorsal",
+                   "origo": [0, 0, 0]
+                }
+            },
             "sourcePublication": source_publication,
             "linkedURI": linked_dataset},
         "LocareCollection": []

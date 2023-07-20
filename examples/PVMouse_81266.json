@@ -2,9 +2,19 @@
   "type": "LocareJSON",
   "version": "1.0.0",
   "metadata": {
-    "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+    "targetAtlas": {
+       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+       "coordinateOrigin": {
+           "dimensions": [456, 528, 320],
+           "resolution": "25um",
+           "x": "left to right",
+           "y": "posterior to anterior",
+           "z": "ventral to dorsal",
+           "origo": [0, 0, 0]
+        }
+    },
     "sourcePublication": "https://doi.org/10.25493/BT8X-FN9",
-    "relatedPublications": ["https://doi.org/10.25493/j.isci.2020.101906", " https://doi.org/10.25493/BXGX-WM4"],
+    "relatedPublications": ["https://doi.org/10.25493/j.isci.2020.101906", "https://doi.org/10.25493/BXGX-WM4"],
     "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=ABA_Mouse_CCFv3_2017_25um&series=https://object.cscs.ch/v1/AUTH_4791e0a3b3de43e2840fe46d9dc2b334/ext-d000009_PVMouse_pub/PVMouse_81266/original/ext-d000009_PVMouse_81266_nonlinear_lz.json&pyramids=imgsvc-2117a497-8dae-4a28-b8d3-5c80cf761039"
   },
   "LocareCollection": [

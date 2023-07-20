@@ -2,7 +2,17 @@
     "type":"LocareJSON",
     "version":"1.0.0",
     "metadata":{
-       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateOrigin": {
+              "dimensions": [512, 1024, 512],
+              "resolution": "39um",
+              "x": "left to right",
+              "y": "posterior to anterior",
+              "z": "ventral to dorsal",
+              "origo": [244, 623, 248]
+           }
+       },
        "sourcePublication":"https://doi.org/10.25493/2MX9-3XF",
        "relatedPublications": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
        "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-180cbdb6-14c2-4e67-8403-602d0ff1ee0c/F18_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-180cbdb6-14c2-4e67-8403-602d0ff1ee0c"

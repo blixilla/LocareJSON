@@ -2,7 +2,17 @@
     "type":"LocareJSON",
     "version":"1.0.0",
     "metadata":{
-       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateOrigin": {
+              "dimensions": [512, 1024, 512],
+              "resolution": "39um",
+              "x": "left to right",
+              "y": "posterior to anterior",
+              "z": "ventral to dorsal",
+              "origo": [244, 623, 248]
+           }
+       },
        "sourcePublication":"https://doi.org/10.25493/YMV3-45H",
        "relatedPublications": ["https://doi.org/10.25493/A4RG-CJN", "https://doi.org/10.25493/93YQ-6QM"]
     },

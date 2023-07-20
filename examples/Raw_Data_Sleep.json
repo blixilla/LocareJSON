@@ -2,7 +2,17 @@
     "type":"LocareJSON",
     "version":"0.1",
     "metadata":{
-       "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+          "coordinateOrigin": {
+              "dimensions": [456, 528, 320],
+              "resolution": "25um",
+              "x": "left to right",
+              "y": "posterior to anterior",
+              "z": "ventral to dorsal",
+              "origo": [0, 0, 0]
+           }
+       },
        "sourcePublication":"https://doi.org/10.25493/A2KP-FKD",
        "relatedPublications":["https://doi.org/10.1038/s41598-020-72362-3"]
     },
