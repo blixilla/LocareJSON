@@ -6,14 +6,19 @@
       "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
   },
   "LocareCollection": [
-   {
-      "atlasMeshAssociation":{
-          "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_lateralPosteriorNucleusOfTheThalamus"
-      },  
-      "properties":{
-          "name":"HBP20-LP6",
-          "description":"data shared from sourcePublication, in subfolder LP6 of HBP20, is associated to lateral posterior nucleus of the thalamus (LP)"
-      }   
-   }
+    {
+        "geometry":{
+           "type":"Point",
+           "coordinates":[
+              153.8,
+              202.4,
+              185.6
+           ]
+        },
+        "properties":{
+           "name":"HBP20-LP6",
+           "description":"position of neuronal somata centroid representing data from sourcePublication, in subfolder LP6 of HBP20"
+      }
+  }   
   ]
 }

@@ -1,6 +1,6 @@
 {
    "type": "LocareJSON",
-   "version": "0.0.3",
+   "version": "1.0.0",
    "metadata": {
       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
       "sourcePublication": "https://doi.org/10.25493/2MX9-3XF",

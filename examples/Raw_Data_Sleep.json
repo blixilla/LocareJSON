@@ -3,7 +3,8 @@
     "version":"0.1",
     "metadata":{
        "commonCoordinateSpaceVersion":"https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-       "linkedDataset":"https://doi.org/10.25493/A2KP-FKD"
+       "sourcePublication":"https://doi.org/10.25493/A2KP-FKD",
+       "relatedPublications":["https://doi.org/10.1038/s41598-020-72362-3"]
     },
     "LocareCollection": [
     {
@@ -20,7 +21,6 @@
              "name":"EEG2",
              "description":"position of EEG electrode"
           }
-       }
     },
     {
 
@@ -36,7 +36,6 @@
              "name":"ground electrode",
              "description":"position of EEG electrode"
           }
-       }
     },
     {
  
@@ -52,7 +51,6 @@
               "name":"EEG1",
               "description":"position of EEG electrode"
            }
-        }
      },
      {
  
@@ -68,7 +66,6 @@
               "name":"common electrode",
               "description":"position of EEG electrode"
            }
-        }
      }
   ]
- }   
+}   

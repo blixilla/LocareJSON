@@ -9,16 +9,12 @@
   "LocareCollection": [
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             200,
             761,
             391
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 1",
@@ -27,16 +23,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             198,
             687,
             407
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 2",
@@ -45,16 +37,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             291,
             762,
             391
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 3",
@@ -63,16 +51,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             284,
             689,
             411
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 4",
@@ -81,16 +65,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             123,
             615,
             405
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 5",
@@ -99,16 +79,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             197,
             617,
             424
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 6",
@@ -117,16 +93,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             281,
             619,
             428
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 7",
@@ -135,16 +107,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             358,
             619,
             409
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 8",
@@ -153,16 +121,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             118,
             544,
             418
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 9",
@@ -171,16 +135,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             192,
             547,
             431
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 10",
@@ -189,16 +149,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             283,
             548,
             436
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 11",
@@ -207,16 +163,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             356,
             549,
             425
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 12",
@@ -225,16 +177,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             115,
             466,
             414
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 13",
@@ -243,16 +191,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             195,
             470,
             439
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 14",
@@ -261,16 +205,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             280,
             471,
             440
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 15",
@@ -279,16 +219,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             361,
             471,
             425
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Channel 16",
@@ -297,16 +233,12 @@
     },
     {
         "geometry": {
-          "type": "Sphere",
+          "type": "Point",
           "coordinates": [
             243,
             379,
             430
-          ],
-          "radius": {
-            "value": 25,
-            "unit": "µm"
-         }
+          ]
         },
         "properties": {
           "name": "Ground",
