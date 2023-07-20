@@ -12,12 +12,10 @@ def create_locarePoints_from_centroids(data, source_publication, linked_dataset=
         "metadata": {
             "targetAtlas": {
                "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-               "coordinateOrigin": {
+               "coordinateSpaceSetup": {
                    "dimensions": [456, 528, 320],
                    "resolution": "25um",
-                   "x": "left to right",
-                   "y": "posterior to anterior",
-                   "z": "ventral to dorsal",
+                   "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
                    "origo": [0, 0, 0]
                 }
             },

@@ -24,7 +24,7 @@
               "type": "string",
               "format": "uri"
             },
-            "coordinateOrigin": {
+            "coordinateSpaceSetup": {
               "type": "object",
               "properties": {
                 "dimensions": {
@@ -38,14 +38,13 @@
                 "resolution": {
                   "type": "string"
                 },
-                "x": {
-                  "type": "string"
-                },
-                "y": {
-                  "type": "string"
-                },
-                "z": {
-                  "type": "string"
+                "directions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
                 },
                 "origo": {
                   "type": "array",
@@ -59,16 +58,14 @@
               "required": [
                 "dimensions",
                 "resolution",
-                "x",
-                "y",
-                "z",
+                "directions",
                 "origo"
               ]
             }
           },
           "required": [
             "commonCoordinateSpaceVersion",
-            "coordinateOrigin"
+            "coordinateSpaceSetup"
           ]
         },
         "sourcePublication": {

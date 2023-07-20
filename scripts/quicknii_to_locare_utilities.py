@@ -35,12 +35,10 @@ def define_coordinate_space(target):
     if target.startswith("WHS"):
         targetAtlas = {
             "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
-            "coordinateOrigin": {
+            "coordinateSpaceSetup": {
                "dimensions": [512, 1024, 512],
                "resolution": "39um",
-               "x": "left to right",
-               "y": "posterior to anterior",
-               "z": "ventral to dorsal",
+               "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
                "origo": [244, 623, 248]
             }
         }
@@ -49,12 +47,10 @@ def define_coordinate_space(target):
     elif target.startswith("ABA"):
         targetAtlas = {
             "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
-            "coordinateOrigin": {
+            "coordinateSpaceSetup": {
                "dimensions":  [456, 528, 320],
                "resolution": "25um",
-               "x": "left to right",
-               "y": "posterior to anterior",
-               "z": "ventral to dorsal",
+               "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
                "origo": [0, 0, 0]
             }
         }

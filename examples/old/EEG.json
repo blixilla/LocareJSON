@@ -4,12 +4,10 @@
   "metadata": {
     "targetAtlas": {
        "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
-       "coordinateOrigin": {
+       "coordinateSpaceSetup": {
            "dimensions": [512, 1024, 512],
            "resolution": "39um",
-           "x": "left to right",
-           "y": "posterior to anterior",
-           "z": "ventral to dorsal",
+           "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
            "origo": [244, 623, 248]
         }
     },
