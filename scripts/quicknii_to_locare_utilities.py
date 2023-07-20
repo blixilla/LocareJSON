@@ -48,18 +48,21 @@ def define_coordinate_space(target):
     return commonCoordinateSpaceVersion, resolution
 
 
-def create_locare_dict_from_alignments(data, linked_dataset=""):
+def create_locare_dict_from_alignments(data, source_publication, linked_dataset=""):
     target = data["target"]
     commonCoordinateSpaceVersion, resolution = define_coordinate_space(target)
     locare_dict = {
         "type": "LocareJSON",
-        "version": "0.1",
+        "version": "1.0.0",
         "metadata": {
             "commonCoordinateSpaceVersion": commonCoordinateSpaceVersion,
-            "scale": "um",
-            "linkedDataset": linked_dataset},
+            "sourcePublication": source_publication,
+            "linkedURI": linked_dataset},
         "LocareCollection": []
         }
+    if not linked_dataset:
+        del locare_dict["metadata"]["linkedURI"]
+
     for section in data["slices"]:
         name = section["filename"]
         name = name.split(".")[0]
@@ -80,8 +83,9 @@ def create_locare_dict_from_alignments(data, linked_dataset=""):
             "description": "position of brain section image"
             }
         
-        locareObjects_dict = {"LocareObject":
-            {"geometry": geometry_dict, "properties": properties_dict}}
+        locareObjects_dict = {
+            "geometry": geometry_dict, "properties": properties_dict
+        }
         
         
         locare_dict["LocareCollection"].append(locareObjects_dict)
