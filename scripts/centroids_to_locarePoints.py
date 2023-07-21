@@ -11,7 +11,7 @@ def create_locarePoints_from_centroids(data, source_publication, linked_dataset=
         "version": "1.0.0",
         "metadata": {
             "targetAtlas": {
-               "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+               "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
                "coordinateSpaceSetup": {
                    "dimensions": [456, 528, 320],
                    "resolution": "25um",

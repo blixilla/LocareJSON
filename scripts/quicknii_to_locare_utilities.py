@@ -46,7 +46,7 @@ def define_coordinate_space(target):
         
     elif target.startswith("ABA"):
         targetAtlas = {
-            "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+            "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
             "coordinateSpaceSetup": {
                "dimensions":  [456, 528, 320],
                "resolution": "25um",
