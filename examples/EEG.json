@@ -8,7 +8,7 @@
            "dimensions": [512, 1024, 512],
            "resolution": "39um",
            "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-           "origo": [244, 623, 248]
+           "origin": [244, 623, 248]
         }
     },
     "sourcePublication": "https://doi.org/10.25493/4SPM-V00",

@@ -39,7 +39,7 @@ def define_coordinate_space(target):
                "dimensions": [512, 1024, 512],
                "resolution": "39um",
                "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-               "origo": [244, 623, 248]
+               "origin": [244, 623, 248]
             }
         }
 
@@ -51,7 +51,7 @@ def define_coordinate_space(target):
                "dimensions":  [456, 528, 320],
                "resolution": "25um",
                "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-               "origo": [0, 0, 0]
+               "origin": [0, 0, 0]
             }
         }
         

@@ -3,28 +3,12 @@
     "version": "0.1",
     "metadata": {
         "targetAtlas": {
-           "targetAtlas": {
-              "targetAtlas": {
-                 "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
-                 "coordinateSpaceSetup": {
-                     "dimensions": [512, 1024, 512],
-                     "resolution": "39um",
-                     "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-                     "origo": [244, 623, 248]
-                  }
-              },
-              "coordinateSpaceSetup": {
-                  "dimensions": [512, 1024, 512],
-                  "resolution": "39um",
-                  "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-                  "origo": [244, 623, 248]
-               }
-           },
+           "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
            "coordinateSpaceSetup": {
                "dimensions": [512, 1024, 512],
                "resolution": "39um",
                "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-               "origo": [244, 623, 248]
+               "origin": [244, 623, 248]
             }
         },
         "scale": "um",

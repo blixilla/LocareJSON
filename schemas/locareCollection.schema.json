@@ -46,7 +46,7 @@
                   "minItems": 3,
                   "maxItems": 3
                 },
-                "origo": {
+                "origin": {
                   "type": "array",
                   "items": {
                     "type": "integer"
@@ -59,7 +59,7 @@
                 "dimensions",
                 "resolution",
                 "directions",
-                "origo"
+                "origin"
               ]
             }
           },

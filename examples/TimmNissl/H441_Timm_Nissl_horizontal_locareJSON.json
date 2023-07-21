@@ -12,7 +12,7 @@
                 ],
                 "resolution": "39um",
                 "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-                "origo": [
+                "origin": [
                     244,
                     623,
                     248

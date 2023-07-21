@@ -16,7 +16,7 @@ def create_locarePoints_from_centroids(data, source_publication, linked_dataset=
                    "dimensions": [456, 528, 320],
                    "resolution": "25um",
                    "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
-                   "origo": [0, 0, 0]
+                   "origin": [0, 0, 0]
                 }
             },
             "sourcePublication": source_publication,
