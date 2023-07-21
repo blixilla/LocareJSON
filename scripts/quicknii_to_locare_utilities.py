@@ -38,7 +38,7 @@ def define_coordinate_space(target):
             "coordinateSpaceSetup": {
                "dimensions": [512, 1024, 512],
                "resolution": "39um",
-               "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
+               "orientation": "RAS",
                "origin": [244, 623, 248]
             }
         }
@@ -50,7 +50,7 @@ def define_coordinate_space(target):
             "coordinateSpaceSetup": {
                "dimensions":  [456, 528, 320],
                "resolution": "25um",
-               "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
+               "orientation": "RAS",
                "origin": [0, 0, 0]
             }
         }

@@ -11,7 +11,7 @@
                     320
                 ],
                 "resolution": "25um",
-                "directions": ["left to right", "posterior to anterior", "ventral to dorsal"],
+                "orientation": "RAS",
                 "origin": [
                     0,
                     0,

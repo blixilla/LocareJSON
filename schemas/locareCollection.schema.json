@@ -38,13 +38,10 @@
                 "resolution": {
                   "type": "string"
                 },
-                "directions": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  },
-                  "minItems": 3,
-                  "maxItems": 3
+                "orientation":  {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z]{3}$",
+                  "description": "Using the anatomical coordinate system explained here: https://www.slicer.org/wiki/Coordinate_systems"
                 },
                 "origin": {
                   "type": "array",
@@ -58,7 +55,7 @@
               "required": [
                 "dimensions",
                 "resolution",
-                "directions",
+                "orientation",
                 "origin"
               ]
             }
