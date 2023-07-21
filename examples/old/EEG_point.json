@@ -6,7 +6,7 @@
        "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
        "coordinateSpaceSetup": {
            "dimensions": [512, 1024, 512],
-           "resolution": "39um",
+           "resolution": "39μm",
            "orientation": "RAS",
            "origin": [244, 623, 248]
         }

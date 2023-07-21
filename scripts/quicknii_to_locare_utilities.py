@@ -37,7 +37,7 @@ def define_coordinate_space(target):
             "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
             "coordinateSpaceSetup": {
                "dimensions": [512, 1024, 512],
-               "resolution": "39um",
+               "resolution": "39μm",
                "orientation": "RAS",
                "origin": [244, 623, 248]
             }
@@ -46,10 +46,10 @@ def define_coordinate_space(target):
         
     elif target.startswith("ABA"):
         targetAtlas = {
-            "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3",
+            "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
             "coordinateSpaceSetup": {
                "dimensions":  [456, 528, 320],
-               "resolution": "25um",
+               "resolution": "25μm",
                "orientation": "RAS",
                "origin": [0, 0, 0]
             }
