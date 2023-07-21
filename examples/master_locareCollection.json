@@ -6,7 +6,7 @@
          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
          "coordinateSpaceSetup": {
              "dimensions": [512, 1024, 512],
-             "resolution": "39μm",
+             "resolution": "39 μm",
              "orientation": "RAS",
              "origin": [244, 623, 248]
           }
@@ -29,7 +29,7 @@
             ],
             "radius": {
                "value": 312.89,
-               "unit": "µm"
+               "unit": " μm"
             }
          },
          "properties": {
@@ -69,7 +69,7 @@
             ],
             "radius": {
                "value": 1800,
-               "unit": "µm"
+               "unit": " μm"
             }
          },
          "properties": {
