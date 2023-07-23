@@ -1,6 +1,6 @@
 # LocareJSON
 
-LocareJSON is a collection of JSON schemas for defining geometrical shapes with coordinates in 3D brain atlas coordinate systems. The goal is to represent diverse neuroscientific data using normalized representations (point, sphere, line string, cylinder, polygon or polyhedron) for the purpose of co-visualization and to enable spatial queries. It is based on GeoJSON (https://github.com/geojson/geojson.github.io) but extended to accommodate for 3D elements. It refers to instances from openMINDS_SANDS (https://github.com/HumanBrainProject/openMINDS_SANDS) for clarifications around specific versions of 3D atlas coordinate space (commonCoordinateSpaceVersion) and 3D atlas terminology (parcellationEntityVersion).   
+LocareJSON is a collection of JSON schemas for defining geometrical shapes with coordinates in 3D brain atlas coordinate spaces. The goal is to represent diverse neuroscientific data using normalized representations (point, sphere, line string, cylinder, polygon or polyhedron) for the purpose of co-visualization and to enable spatial queries. It is based on GeoJSON (https://github.com/geojson/geojson.github.io) but extended to accommodate for 3D elements. It refers to instances from openMINDS_SANDS (https://github.com/HumanBrainProject/openMINDS_SANDS) for clarifications around specific versions of 3D atlas coordinate space (commonCoordinateSpaceVersion) and 3D atlas terminology (parcellationEntityVersion).   
 
 
 
