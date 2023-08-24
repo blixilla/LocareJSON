@@ -8,13 +8,16 @@ Created on Thu July 20
 def create_locarePoints_from_centroids(data, source_publication, linked_dataset=""):
     locare_dict = {
         "type": "LocareJSON",
-        "version": "1.0.0",
+        "version": "v1.1.0",
         "metadata": {
             "targetAtlas": {
                "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
                "coordinateSpaceSetup": {
                    "dimensions": [456, 528, 320],
-                   "resolution": "25 μm",
+                   "resolution":  {
+                       "value": 25,
+                       "unit": "μm"
+                   },
                    "orientation": "RAS",
                    "origin": [0, 0, 0]
                 }

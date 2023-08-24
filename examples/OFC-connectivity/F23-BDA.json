@@ -1,12 +1,15 @@
 {
     "type":"LocareJSON",
-    "version":"1.0.0",
+    "version":"v1.1.0",
     "metadata":{
        "targetAtlas": {
           "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
           "coordinateSpaceSetup": {
               "dimensions": [512, 1024, 512],
-              "resolution": "39 μm",
+              "resolution":  {
+                  "value": 39,
+                  "unit": "μm"
+              },
               "orientation": "RAS",
               "origin": [244, 623, 248]
            }
@@ -26,7 +29,7 @@
              ],
              "radius": {
                 "value": 318.59,
-                "unit": " μm"
+                "unit": "μm"
              }
           },
           "properties":{
@@ -45,7 +48,7 @@
                 ],
              "radius": {
                   "value": 777.68,
-                  "unit": " μm"
+                  "unit": "μm"
              }
           },
           "properties":{
