@@ -1,0 +1,49 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.0",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateSpaceSetup": {
+              "dimensions": [512, 1024, 512],
+              "resolution":  {
+                  "value": 39,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [244, 623, 248]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/AM91-2D",
+       "relatedPublications": ["https://doi.org/10.1101/2023.05.24.542117"]
+    },
+    "LocareCollection": [  
+    {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+                57.56,
+                475.59,
+                274,6
+                ],
+                [
+                121.06,
+                481.87,
+                388.90
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 1 of Subject r14",
+            "description": "representation of position for tetrode 1 from Subject r14 in sourcePublication"
+        }
+    }     
+  ] 
+}
+
+  
