@@ -28,7 +28,7 @@
           },
           "properties": {
           "name": "HBP19-PO4",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder PO4 of HBP19"
+          "description": "position of the neuronal somata for subject HBP19 / neuron PO4 shared in sourcePublication, based on atlas registration of image HBP-00732-HBP19-PO_2Dscheme.pdf"
           }
       }  
   ]
