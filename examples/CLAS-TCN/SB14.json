@@ -28,7 +28,7 @@
           },
           "properties": {
           "name": "SB14-PO5",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder PO5 of SB14"
+          "description": "position of the neuronal somata for subject SB14 / neuron PO5 shared in sourcePublication, based on atlas registration of image HBP-00732-SB14-PO1_2Dscheme.pdf"
           }
     },
     {  
@@ -42,7 +42,7 @@
           },
           "properties": {
           "name": "SB14-PO6",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder PO6 of SB14"
+          "description": "position of the neuronal somata for subject SB14 / neuron PO6 shared in sourcePublication, based on atlas registration of image HBP-00732-SB14-PO2_2Dscheme.pdf"
           } 
     }
   ]
