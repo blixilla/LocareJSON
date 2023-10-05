@@ -1,0 +1,648 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.0",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateSpaceSetup": {
+              "dimensions": [512, 1024, 512],
+              "resolution":  {
+                  "value": 39,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [244, 623, 248]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/AM91-2D",
+       "relatedPublications": ["https://doi.org/10.1101/2023.05.24.542117"]
+    },
+    "LocareCollection": [  
+    {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+                57.56,
+                475.59,
+                274.6
+                ],
+                [
+                121.06,
+                481.87,
+                388.90
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 1 of Subject r14",
+            "description": "representation of position for tetrode 1 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		64.03736333,
+		479.5423631,	
+		266
+                ],
+                [
+		93.33687888,	
+		480.5938826,	
+		330.5
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 2 of Subject r14",
+            "description": "representation of position for tetrode 2 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		68.54038638,	
+		478.7766869,	
+		279.1
+                ],
+                [
+		127.2597203,	
+		482.0207408,	
+		388.4
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 3 of Subject r14",
+            "description": "representation of position for tetrode 3 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		56.30084861,	
+		478.012558,	
+		276.4
+                ],
+                [
+		113.0286091,	
+		484.7564215,	
+		379.1
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 4 of Subject r14",
+            "description": "representation of position for tetrode 4 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		55.81491592,	
+		476.7148968,	
+		291.9
+                ],
+                [
+		109.8248484,	
+		483.1927584,	
+		390
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 5 of Subject r14",
+            "description": "representation of position for tetrode 5 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		87.71624575,	
+		476.9504456,	
+		324
+                ],
+                [
+		125.9912017,	
+		477.4970021,	
+		384.1
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 6 of Subject r14",
+            "description": "representation of position for tetrode 6 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		89.76323016,	
+		478.2678682,	
+		326.8
+                ],
+                [
+		95.0935426,	
+		477.8183049,	
+		343
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 7 of Subject r14",
+            "description": "representation of position for tetrode 7 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		57.75468305,	
+		492.7971772,	
+		262.2
+                ],
+                [
+		101.9863277,	
+		499.4628874,	
+		384.8
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 8 of Subject r14",
+            "description": "representation of position for tetrode 8 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		99.41894461,	
+		501.2129103,	
+		372.8
+                ],
+                [
+		110.0344024,	
+		500.103605,	
+		391.9
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 10 of Subject r14",
+            "description": "representation of position for tetrode 10 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		174.8327999,	
+		545.667413,	
+		383.9
+                ],
+                [
+		176.1206579,	
+		545.9298949,	
+		390.4
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 11 of Subject r14",
+            "description": "representation of position for tetrode 11 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		184.1063459,	
+		545.2817329,	
+		386.3
+                ],
+                [
+		188.0219597,	
+		544.6307734,	
+		397.6
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 12 of Subject r14",
+            "description": "representation of position for tetrode 12 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		111,7380644,	
+		552,7850748,	
+		381,8
+                ],
+                [
+		118,9332734,	
+		553,3353927,	
+		390
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 14 of Subject r14",
+            "description": "representation of position for tetrode 14 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		121.0409557,	
+		558.1815599,	
+		377.9
+                ],
+                [
+		126.5421513,	
+		559.1249294,	
+		390
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 15 of Subject r14",
+            "description": "representation of position for tetrode 15 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		171,6365273,	
+		563,2809135,	
+		376,1
+                ],
+                [
+		172,2339691,	
+		559,5954618,	
+		389,1
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 16 of Subject r14",
+            "description": "representation of position for tetrode 16 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		189.5814457,	
+		559.6378459,	
+		375
+                ],
+                [
+		185.1375314,	
+		559.5710374,	
+		392.5
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 17 of Subject r14",
+            "description": "representation of position for tetrode 17 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		200.7,	
+		558.4,	
+		374.9
+                ],
+                [
+		202.2,	
+		556.8,	
+		377
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 18 of Subject r14",
+            "description": "representation of position for tetrode 18 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		107.6976215,	
+		559.8870622,	
+		378.2
+                ],
+                [
+		117.4934919,	
+		558.7008625,	
+		396.8
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 20 of Subject r14",
+            "description": "representation of position for tetrode 20 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		109.9014166,	
+		564.7504648,	
+		388.2
+                ],
+                [
+		113.8135015,	
+		564.6934927,		
+		394.8
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 21 of Subject r14",
+            "description": "representation of position for tetrode 21 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		118.7793096,	
+		565.0452929,	
+		375.6
+                ],
+                [
+		120.8820293,	
+		565.3911088,	
+		387
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 22 of Subject r14",
+            "description": "representation of position for tetrode 22 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		193.4876733,	
+		566.7808537,	
+		389.4
+                ],
+                [
+		192.7561731,		
+		566.1285649,	
+		402.1
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 23 of Subject r14",
+            "description": "representation of position for tetrode 23 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		105.3277181,	
+		571.3845116,	
+		378.6
+                ],
+                [
+		109.9857682,	
+		570.5954444,	
+		392.4
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 24 of Subject r14",
+            "description": "representation of position for tetrode 24 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		181.3065131,	
+		571.0235336,		
+		369.6
+                ],
+                [
+		188.7526543,	
+		570.3895142,	
+		398.8
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 25 of Subject r14",
+            "description": "representation of position for tetrode 25 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		95.59163436,	
+		476.9467327,	
+		339.1
+                ],
+                [
+		109.5929899,		
+		476.2533683,	
+		367.3
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 26 of Subject r14",
+            "description": "representation of position for tetrode 26 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		101.7320962,	
+		490.9008686,	
+		368.7
+                ],
+                [
+		110.9479384,	
+		487.8713886,	
+		388.8
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 27 of Subject r14",
+            "description": "representation of position for tetrode 27 from Subject r14 in sourcePublication"
+	}
+},
+        {
+        "geometry": {
+            "type": "Cylinder",
+            "coordinates": [
+                [
+		93.13312307,	
+		491.9167491,	
+		366
+                ],
+                [
+		104.4015527,	
+		489.2984295,
+		389
+
+                ]
+            ],
+            "radius": {
+                "value": 13,
+                "unit": "μm"
+            }
+        },
+        "properties": {
+            "name": "Tetrode 28 of Subject r14",
+            "description": "representation of position for tetrode 28 from Subject r14 in sourcePublication"
+	}
+    }     
+  ] 
+}
