@@ -23,7 +23,7 @@
       },  
       "properties":{
           "name":"HBP14-VPL3",
-          "description":"data shared from sourcePublication, in subfolder VPL3 of HBP14, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+          "description":"data shared in sourcePublication for subject HBP14 / neuron VPL3 is associated to the ventral posterolateral nucleus of the thalamus (VPL)"
       }   
    }
   ]
