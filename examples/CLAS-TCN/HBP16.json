@@ -23,7 +23,7 @@
         },  
         "properties":{
             "name":"HBP16-VPL1",
-            "description":"data shared from sourcePublication, in subfolder VPL1 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject HBP16 / neuron VPL1 is associated to the ventral posterolateral nucleus of the thalamus (VPL)"
         }   
      },
      {
@@ -32,7 +32,7 @@
         },  
         "properties":{
             "name":"HBP16-VPM1",
-            "description":"data shared from sourcePublication, in subfolder VPM1 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject HBP16 / neuron VPM1 is associated to the ventral posteromedial nucleus of the thalamus (VPM)"
         }   
      },
      {
@@ -41,7 +41,7 @@
         },  
         "properties":{
             "name":"HBP16-VPM2",
-            "description":"data shared from sourcePublication, in subfolder VPM2 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject HBP16 / neuron VPM2 is associated to the ventral posteromedial nucleus of the thalamus (VPM)"
         }   
      },
      {
@@ -50,7 +50,7 @@
         },  
         "properties":{
             "name":"HBP16-VPM3",
-            "description":"data shared from sourcePublication, in subfolder VPM3 of HBP16, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject HBP16 / neuron VPM3 is associated to the ventral posteromedial nucleus of the thalamus (VPM)"
         }   
      }
   ]
