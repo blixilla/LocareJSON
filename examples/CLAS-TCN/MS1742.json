@@ -23,7 +23,7 @@
         },  
         "properties":{
             "name":"MS1742-VPL2",
-            "description":"data shared from sourcePublication, in subfolder VPL2 of MS1742, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject MS1742 / neuron VPL2 is associated to the ventral posterolateral nucleus of the thalamus (VPL)"
         }   
      },
      {
@@ -32,7 +32,7 @@
         },  
         "properties":{
             "name":"MS1742-VPM4",
-            "description":"data shared from sourcePublication, in subfolder VPM4 of MS1742, is associated to ventral posterolateral nucleus of the thalamus (VPL)"
+            "description":"data shared in sourcePublication for subject MS1742 / neuron VPM4 is associated to the ventral posteromedial nucleus of the thalamus (VPM)"
         }   
      }
     ]
