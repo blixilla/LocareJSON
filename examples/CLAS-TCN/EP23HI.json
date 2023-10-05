@@ -28,7 +28,7 @@
           },
           "properties":{
              "name":"EP23HI-LP2",
-             "description":"position of neuronal somata centroid representing data from sourcePublication, in subfolder LP2 of EP23HI"
+             "description":"position of the neuronal somata for subject EP23HI / neuron LP2 shared in sourcePublication, based on atlas registration of image EP23HI_LPLC_SOMA_41_1X.tif"
         }
     }  
   ]  
