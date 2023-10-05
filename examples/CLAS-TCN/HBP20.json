@@ -28,7 +28,7 @@
         },
         "properties":{
            "name":"HBP20-LP6",
-           "description":"position of neuronal somata centroid representing data from sourcePublication, in subfolder LP6 of HBP20"
+           "description":"position of the neuronal somata for subject HBP20 / neuron LP6 shared in sourcePublication, based on atlas registration of image hbp20-sect114-soma-4x.tif"
       }
   }   
   ]
