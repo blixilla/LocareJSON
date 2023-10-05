@@ -28,7 +28,7 @@
           },
           "properties": {
           "name": "R337HI-LP3-ANTSOMA",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP3-ANTSOMA of R337HI"
+          "description": "position of the neuronal somata for subject R337HI / neuron LP3 shared in sourcePublication, based on atlas registration of image hbp-00732-R337HI-LP3-AnteriorS.tif"
           }
     },
     {  
@@ -42,7 +42,7 @@
           },
           "properties": {
           "name": "R337HI-LP4-POSTSOMA",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP4-POSTSOMA of R337HI"
+          "description": "position of the neuronal somata for subject R337HI / neuron LP4 shared in sourcePublication, based on atlas registration of image hbp-00732-R337HI-LP4-PosteriorS.tif"
           } 
     }
   ]
