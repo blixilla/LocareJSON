@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu July 20
+
+@author: blixhavn, blixilla
+"""
+
 import numpy as np
 
 # Given values
