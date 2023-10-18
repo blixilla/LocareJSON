@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareSphere.schema.json",
+  "$id": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareSphere.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "LocareSphere",
   "type": "object",

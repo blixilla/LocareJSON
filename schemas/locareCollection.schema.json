@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareCollection.schema.json",
+  "$id": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareCollection.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "LocareJSON",
   "type": "object",
@@ -99,25 +99,25 @@
       "items": {
         "anyOf": [
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareSphere.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareSphere.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locarePoint.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locarePoint.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareCylinder.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareCylinder.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareLineString.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareLineString.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locarePolygon.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locarePolygon.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locarePolyhedron.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locarePolyhedron.schema.json"
           },
           {
-            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.0/schemas/locareAtlasMesh.schema.json"
+            "$ref": "https://raw.githubusercontent.com/blixilla/LocareJSON/v1.1.1/schemas/locareAtlasMesh.schema.json"
           }
         ]
       }
