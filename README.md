@@ -41,7 +41,7 @@ _For atlasMesh in LocareCollection:_
 Feel free to reach out, either by email (c.h.blixhavn@medisin.uio.no) or by raising an issue. Also, pull requests are welcome. 
 
 ## Acknowledgements
-The LocareJSON project is created at the Neural Systems laboratory at the University of Oslo as part of contributions to EBRAINS (https://www.ebrains.eu/) and the Human Brain Project, funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under Specific Grant Agreements No. 720270, No. 785907, and No. 945539 (Human Brain Project SGA1, SGA2, and SGA3).
+The LocareJSON project is created at the Neural Systems laboratory at the University of Oslo as part of contributions to EBRAINS (https://www.ebrains.eu/) and the Human Brain Project, funded from the European Union’s Horizon 2020 Framework Programme for Research and Innovation under Specific Grant Agreements No. 720270, No. 785907, and No. 945539 (Human Brain Project SGA1, SGA2, and SGA3). We would like to thank Øystein Hagen Blixhavn for valuable technical input and assistance.
 
 ## License
 LocareJSON is licensed under CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
