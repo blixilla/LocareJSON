@@ -1,0 +1,43 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.1",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+          "coordinateSpaceSetup": {
+              "dimensions": [456, 528, 320],
+              "resolution":  {
+                  "value": 25,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [0, 0, 0]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/NHHM-1S5",
+       "relatedPublications": ["https://doi.org/10.1038/s41598-018-36087-8"]
+    },
+    "LocareCollection": [  
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+              89.4,
+              181.4,
+              277.8
+            ],
+            [
+              104.0,
+              182.6,
+              244.3
+            ]
+          ]
+      },
+      "properties": {
+        "name": "NeurAct-FigureGroundStim",
+        "description": "position of electrode in mouse visual cortex representing data from sourcePublication"
+      }
+    } 
+  ] 
+}

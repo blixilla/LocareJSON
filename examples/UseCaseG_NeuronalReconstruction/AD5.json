@@ -1,0 +1,35 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.1",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+          "coordinateSpaceSetup": {
+              "dimensions": [456, 528, 320],
+              "resolution":  {
+                  "value": 25,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [0, 0, 0]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+    {
+          "geometry":{
+             "type":"Point",
+             "coordinates":[
+                310.3,
+                227.9,
+                206.5
+             ]
+          },
+          "properties":{
+             "name":"AD5-LP1",
+             "description": "position of the neuronal somata for subject AD5 / neuron LP1 shared in sourcePublication (the image used for coordinate extraction is not shared)"
+        }
+    }    
+  ]  
+}

@@ -1,0 +1,84 @@
+{
+  "type": "LocareJSON",
+  "version":"v1.1.1",
+  "metadata": {
+    "targetAtlas": {
+       "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+       "coordinateSpaceSetup": {
+           "dimensions": [456, 528, 320],
+           "resolution":  {
+               "value": 25,
+               "unit": "μm"
+           },
+           "orientation": "RAS",
+           "origin": [0, 0, 0]
+        }
+    },
+    "sourcePublication": "https://doi.org/10.25493/Z9J0-ZZQ",
+    "relatedPublications": ["https://doi.org/10.3389/fnsys.2020.00031"]
+  },
+  "LocareCollection": [
+    {
+    "geometry": {
+      "type": "Polyhedron",
+      "coordinates": {
+        "vertices": [
+          [
+              230,
+              322.5,
+              294
+            ],
+            [
+              54.8,
+              322.5,
+              277.2
+            ],
+            [
+              230,
+              146.5,
+              294
+            ],
+            [
+              54.8,
+              146.5,
+              277.2
+            ],
+            [
+              224.867,
+              322.5,
+              240.392
+            ],
+            [
+              49.667,
+              322.5,
+              233.592
+            ],
+            [
+              224.867,
+              146.5,
+              240.392
+            ],
+            [
+              49.667,
+              146.5,
+              223.592
+            ]
+          ],
+        "faces": [
+          [0, 1, 2, 3],
+          [0, 3, 7, 4],
+          [3, 2, 6, 7],
+          [1, 2, 6, 5],
+          [0, 1, 5, 4],
+          [4, 5, 6, 7]
+          ]
+      }
+    },
+  "properties": {
+    "name": "GCaMP-ChR2-17",
+    "description": "position of area captured by calcium imaging representing data from sourcePublication"
+    }
+  }
+ ]
+}
+

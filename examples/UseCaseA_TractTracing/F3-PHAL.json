@@ -1,0 +1,61 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.1",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateSpaceSetup": {
+              "dimensions": [512, 1024, 512],
+              "resolution":  {
+                  "value": 39,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [244, 623, 248]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/2MX9-3XF",
+       "relatedPublications": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
+       "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20"
+    },
+    "LocareCollection": [
+    {
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                234.6,
+                742.8,
+                292.6
+             ],
+             "radius": {
+                "value": 312.89,
+                "unit": "μm"
+             }
+          },
+          "properties":{
+             "name":"F3-PHAL",
+             "description":"position of injection site core (registered from F3_PHAL_s027.tif) representing data from sourcePublication, in subfolder PHAL of F3",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20&section=s027"
+          }
+    },
+    {
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                234.6,
+                742.8,
+                292.6
+                ],
+             "radius": {
+                  "value": 960.78,
+                  "unit": "μm"
+             }
+          },
+          "properties":{
+             "name":"F3-PHAL",
+             "description":"position of injection site shell (registered from F3_PHAL_s027.tif) representing data from sourcePublication, in subfolder PHAL of F3",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20/F3_PHAL_IR-WHSSDv4-nonlin.json-fix.json&pyramids=buckets/img-1b850475-9f31-4603-9d01-bc8aa232cc20&section=s027"
+          }
+    }
+  ]
+}

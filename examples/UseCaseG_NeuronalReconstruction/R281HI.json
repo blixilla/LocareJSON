@@ -1,0 +1,49 @@
+{
+    "type": "LocareJSON",
+    "version":"v1.1.1",
+    "metadata": {
+      "targetAtlas": {
+         "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+         "coordinateSpaceSetup": {
+             "dimensions": [456, 528, 320],
+             "resolution":  {
+                 "value": 25,
+                 "unit": "μm"
+             },
+             "orientation": "RAS",
+             "origin": [0, 0, 0]
+          }
+      },
+      "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+    {  
+          "geometry": {
+          "type": "Point",
+          "coordinates": [
+                  321.0,
+                  221.4,
+                  184.5
+          ]
+          },
+          "properties": {
+          "name": "R281HI-LGN1-DORSALSOMA",
+          "description": "position of the neuronal somata for subject R28IHI / neuron LGN1 shared in sourcePublication, based on atlas registration of image hbp-00732-R281HI-LGN1-DorsalS.tif"
+          }
+    },
+    {  
+          "geometry": {
+          "type": "Point",
+          "coordinates": [
+                  321.8,
+                  221.5,
+                  172.2
+          ]
+          },
+          "properties": {
+          "name": "R281HI-LP5-VENTRALSOMA",
+          "description": "position of the neuronal somata for subject R28IHI / neuron LP5 shared in sourcePublication, based on atlas registration of image hbp-00732-R281HI-LGN2-VentralS.tif"
+          } 
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.1",
+    "metadata":{
+        "targetAtlas": {
+           "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+           "coordinateSpaceSetup": {
+               "dimensions": [456, 528, 320],
+               "resolution":  {
+                   "value": 25,
+                   "unit": "μm"
+               },
+               "orientation": "RAS",
+               "origin": [0, 0, 0]
+            }
+        },
+        "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+     {
+        "atlasMesh":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosterolateralNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"MS1742-VPL2",
+            "description":"data shared in sourcePublication for subject MS1742 / neuron VPL2 is associated to the ventral posterolateral nucleus of the thalamus (VPL)"
+        }   
+     },
+     {
+        "atlasMesh":{
+            "parcellationEntityVersion": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_ventralPosteromedialNucleusOfTheThalamus"
+        },  
+        "properties":{
+            "name":"MS1742-VPM4",
+            "description":"data shared in sourcePublication for subject MS1742 / neuron VPM4 is associated to the ventral posteromedial nucleus of the thalamus (VPM)"
+        }   
+     }
+    ]
+}

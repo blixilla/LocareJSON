@@ -1,0 +1,61 @@
+{
+    "type":"LocareJSON",
+    "version":"v1.1.1",
+    "metadata":{
+       "targetAtlas": {
+          "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+          "coordinateSpaceSetup": {
+              "dimensions": [512, 1024, 512],
+              "resolution":  {
+                  "value": 39,
+                  "unit": "μm"
+              },
+              "orientation": "RAS",
+              "origin": [244, 623, 248]
+           }
+       },
+       "sourcePublication":"https://doi.org/10.25493/2MX9-3XF",
+       "relatedPublications": ["https://doi.org/10.1002/cne.23442", "https://doi.org/10.3389/fnsys.2019.00038"],
+       "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef/F17_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef"
+    },
+    "LocareCollection": [
+    {
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                196.0,
+                722.8,
+                298.6
+             ],
+             "radius": {
+                "value": 206.75,
+                "unit": "μm"
+             }
+          },
+          "properties":{
+             "name":"F17-BDA",
+             "description":"position of injection site core (registered from F17_BDA_s031.tif) representing data from sourcePublication, in subfolder BDA of F17",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef/F17_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef&section=s031"
+          }
+    },
+    {
+          "geometry":{
+             "type":"Sphere",
+             "coordinates":[
+                196.0,
+                722.8,
+                298.6
+                ],
+             "radius": {
+                  "value": 469.93,
+                  "unit": "μm"
+             }
+          },
+          "properties":{
+             "name":"F17-BDA",
+             "description":"position of injection site shell (registered from F17_BDA_s031.tif) representing data from sourcePublication, in subfolder BDA of F17",
+             "linkedURI": "https://localizoom.apps.hbp.eu/filmstripzoom.html?atlas=WHS_SD_Rat_v4_39um&series=https://data-proxy.ebrains.eu/api/v1/public/buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef/F17_BDA_IR-WHSSDv4-nonlin-fix.json&pyramids=buckets/img-ac830fb6-97aa-4f88-a0c1-83dfb040d9ef&section=s031"
+          }
+    }
+  ]
+}

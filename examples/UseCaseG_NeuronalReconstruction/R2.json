@@ -1,0 +1,35 @@
+{
+    "type": "LocareJSON",
+    "version":"v1.1.1",
+    "metadata": {
+      "targetAtlas": {
+         "commonCoordinateSpaceVersion": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS",
+         "coordinateSpaceSetup": {
+             "dimensions": [456, 528, 320],
+             "resolution":  {
+                 "value": 25,
+                 "unit": "μm"
+             },
+             "orientation": "RAS",
+             "origin": [0, 0, 0]
+          }
+      },
+      "sourcePublication": "https://doi.org/10.25493/AWS5-MZG"
+    },
+    "LocareCollection": [
+    {  
+          "geometry": {
+          "type": "Point",
+          "coordinates": [
+                  175.9,
+                  228.9,
+                  174.6
+          ]
+          },
+          "properties": {
+          "name": "R2-PO3",
+          "description": "position of the neuronal somata for subject R2 / neuron PO3 shared in sourcePublication, based on atlas registration of image HBP00732-R2-Po 3 .pdf"
+          } 
+    }
+  ]
+}
