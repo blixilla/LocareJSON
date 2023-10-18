@@ -28,7 +28,7 @@
           },
           "properties": {
           "name": "R281HI-LGN1-DORSALSOMA",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LGN-DORSALSOMA of R281HI"
+          "description": "position of the neuronal somata for subject R28IHI / neuron LGN1 shared in sourcePublication, based on atlas registration of image hbp-00732-R281HI-LGN1-DorsalS.tif"
           }
     },
     {  
@@ -42,7 +42,7 @@
           },
           "properties": {
           "name": "R281HI-LP5-VENTRALSOMA",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder LP5-VENTRALSOMA of R281HI"
+          "description": "position of the neuronal somata for subject R28IHI / neuron LP5 shared in sourcePublication, based on atlas registration of image hbp-00732-R281HI-LGN2-VentralS.tif"
           } 
     }
   ]

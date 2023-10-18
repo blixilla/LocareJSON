@@ -28,7 +28,7 @@
           },
           "properties": {
           "name": "R2-PO3",
-          "description": "position of neuronal somata centroid representing data from sourcePublication, in subfolder PO3 of R2"
+          "description": "position of the neuronal somata for subject R2 / neuron PO3 shared in sourcePublication, based on atlas registration of image HBP00732-R2-Po 3 .pdf"
           } 
     }
   ]
