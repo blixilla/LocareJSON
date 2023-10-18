@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu July 20
+Created on Thu July 20 16:54:00 2023
 
 @author: blixhavn, blixilla
 """

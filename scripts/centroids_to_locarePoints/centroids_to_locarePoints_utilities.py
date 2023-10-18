@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu July 20
+Created on Thu July 20 18:30:00 2023
 
-@author: blixhavn
+@author: blixhavn, blixilla
 """
 
 def create_locarePoints_from_centroids(data, source_publication, linked_dataset=""):

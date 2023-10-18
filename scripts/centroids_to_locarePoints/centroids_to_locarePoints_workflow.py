@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu July 20 18:30:00 2023
+
+@author: blixhavn, blixilla
+"""
+
 import json
 import sys
 from urllib.parse import urlparse
