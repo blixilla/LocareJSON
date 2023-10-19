@@ -76,7 +76,7 @@
     },
   "properties": {
     "name": "GCaMP-ChR2-17",
-    "description": "position of area captured by calcium imaging representing data from sourcePublication"
+    "description": "position of area captured by calcium imaging representing data from subject GCaMP-ChR2-17 in sourcePublication"
     }
   }
  ]
