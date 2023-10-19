@@ -37,6 +37,9 @@ _For atlasMesh in LocareCollection:_
   * description (mandatory): describing what the atlas mesh is associated to, e.g. specific parts of a study and/or set of files
   * linkedURI (optional): URI associated to specific atlas mesh association, e.g. direct link to viewer presenting relevant data
 
+## Naming convention
+The Locare files follow the naming convention '[prefix].locare.json'. The prefix should closely resemble the data the JSON represents (e.g., the subject ID, original file name etc.).
+
 ## Contributing
 Feel free to reach out, either by email (c.h.blixhavn@medisin.uio.no) or by raising an issue. Also, pull requests are welcome. 
 
